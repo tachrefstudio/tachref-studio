@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://tachrefstudio.github.io/tachref-studio/sitemap.xml
