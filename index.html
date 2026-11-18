@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TACHREF STUDIO | Web, Brand &amp; UI/UX Design Studio</title>
+<meta name="description" content="TACHREF STUDIO is an independent digital creative studio building websites, brand identity, graphic design and UI/UX for ambitious businesses.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="TACHREF STUDIO">
+<meta property="og:site_name" content="TACHREF STUDIO">
+<meta property="og:locale" content="en_US">
+<meta name="theme-color" content="#070707">
+<link rel="canonical" href="https://tachrefstudio.github.io/tachref-studio/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TACHREF STUDIO | Web, Brand &amp; UI/UX Design Studio">
+<meta property="og:description" content="Websites, graphic design, brand identity and UI/UX for ambitious businesses.">
+<meta property="og:url" content="https://tachrefstudio.github.io/tachref-studio/">
+<meta property="og:image" content="https://tachrefstudio.github.io/tachref-studio/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="TACHREF STUDIO, digital creative studio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TACHREF STUDIO | Web, Brand &amp; UI/UX Design Studio">
+<meta name="twitter:description" content="Websites, brand identity, graphic design and UI/UX for ambitious businesses.">
+<meta name="twitter:image" content="https://tachrefstudio.github.io/tachref-studio/og-image.png">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%20120'%3E%3Crect%20width='120'%20height='120'%20rx='30'%20fill='%230E1116'/%3E%3Cpath%20d='M%2028.9%2091.1%20A%2044%2044%200%201%201%2091.1%2091.1'%20fill='none'%20stroke='%23FF5A1F'%20stroke-width='11'%20stroke-linecap='round'/%3E%3Cpath%20d='M40%2044H80M60%2044V86'%20fill='none'%20stroke='%23F5F3EE'%20stroke-width='13'%20stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://tachrefstudio.github.io/tachref-studio/#website", "url": "https://tachrefstudio.github.io/tachref-studio/", "name": "TACHREF STUDIO", "alternateName": ["Tachref Studio", "Tachref"], "inLanguage": "en", "publisher": {"@id": "https://tachrefstudio.github.io/tachref-studio/#org"}}, {"@type": "ProfessionalService", "@id": "https://tachrefstudio.github.io/tachref-studio/#org", "name": "TACHREF STUDIO", "alternateName": ["Tachref Studio", "Tachref"], "url": "https://tachrefstudio.github.io/tachref-studio/", "image": "https://tachrefstudio.github.io/tachref-studio/og-image.png", "email": "tachrefstudio@gmail.com", "description": "TACHREF STUDIO is an independent digital creative studio offering web development, graphic design, brand identity and UI/UX design.", "areaServed": "Worldwide", "knowsAbout": ["Web development", "Graphic design", "Brand identity", "UI/UX design"], "serviceType": ["Web Development", "Graphic Design", "Brand Identity", "UI/UX Design"], "sameAs": ["https://www.instagram.com/tachref_studio/", "https://discord.gg/WhNWGjaA5"]}]}
+</script>
+<style>
+:root{
+  --bg:#070707;--bg2:#0d0d0d;--panel:#121212;--line:#262626;--line2:#3a3a3a;
+  --text:#f5f5f5;--muted:#a3a3a3;--dim:#7a7a7a;--accent:#f5f5f5;--on-accent:#070707;
+  --max:1200px;--ease:cubic-bezier(.2,.7,.2,1);
+  --display:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"Instrument Sans",Inter,"Helvetica Neue",Arial,sans-serif;
+}
+[data-theme="light"]{
+  --bg:#f4f4f2;--bg2:#ebebe8;--panel:#fff;--line:#d9d9d4;--line2:#b9b9b2;
+  --text:#0b0b0b;--muted:#4f4f4f;--dim:#707070;--accent:#0b0b0b;--on-accent:#f4f4f2;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{overflow-x:hidden;scroll-behavior:smooth;scroll-padding-top:90px}
+body{overflow-x:clip;background:var(--bg);color:var(--text);font-family:var(--body);line-height:1.55;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;cursor:pointer}
+img,svg{display:block;max-width:100%}
+:focus-visible{outline:2px solid var(--text);outline-offset:3px;border-radius:6px}
+.wrap{width:min(var(--max),calc(100% - 48px));margin-inline:auto}
+.skip{position:absolute;left:12px;top:-60px;background:var(--accent);color:var(--on-accent);padding:10px 16px;border-radius:99px;z-index:100;font-size:14px}
+.skip:focus{top:12px}
+#progress{position:fixed;top:0;left:0;height:2px;width:100%;background:var(--accent);transform:scaleX(0);transform-origin:0 50%;z-index:60}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{font-family:var(--display);font-size:20px;letter-spacing:-.04em;font-weight:800;display:inline-flex;align-items:center;gap:10px;white-space:nowrap}
+.logo .mark{width:34px;height:34px;flex:none}
+.mark .mk-tile{fill:var(--text)}
+.mark .mk-t{stroke:var(--bg)}
+.logo .mk-name span{font-weight:500;color:var(--dim)}
+.navlinks{display:flex;gap:28px;font-size:14px;color:var(--muted)}
+.navlinks a{position:relative;padding:4px 0;transition:color .2s}
+.navlinks a:hover,.navlinks a.active{color:var(--text)}
+.navlinks a.active:after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:1px;background:var(--text)}
+.nav-actions{display:flex;align-items:center;gap:10px}
+.icon-btn{width:40px;height:40px;border-radius:50%;border:1px solid var(--line2);background:none;display:grid;place-items:center;transition:.2s}
+.icon-btn:hover{background:var(--accent);color:var(--on-accent)}
+.pill{border:1px solid var(--line2);border-radius:99px;padding:10px 18px;font-size:13px;font-weight:500;transition:.2s}
+.pill:hover{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.menu{display:none}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:10px;border-radius:99px;padding:14px 22px;font-size:14px;font-weight:600;border:1px solid var(--line2);background:none;transition:transform .25s var(--ease),background .2s,color .2s}
+.btn:hover{transform:translateY(-2px);border-color:var(--text)}
+.btn.primary{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.btn .arr{transition:transform .25s var(--ease)}
+.btn:hover .arr{transform:translate(3px,-3px)}
+
+/* hero */
+.hero{min-height:calc(100vh - 72px);max-height:900px;display:grid;grid-template-columns:1fr;align-items:center;gap:20px;position:relative;border-bottom:1px solid var(--line);padding-bottom:40px}
+.hero-copy{padding:70px 0 30px;position:relative;z-index:2}
+.status{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line2);border-radius:99px;padding:7px 14px;color:var(--muted);font-size:13px;margin-bottom:28px}
+.dot{width:7px;height:7px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 0 #4ade8088;animation:pulse 2.2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 9px #4ade8000}100%{box-shadow:0 0 0 0 #4ade8000}}
+h1{font-family:var(--display);font-size:clamp(40px,9.2vw,148px);line-height:1;letter-spacing:-.045em;font-weight:800;user-select:none}
+h1 .line{display:block;overflow:hidden;padding-bottom:.1em;margin-bottom:0}
+h1 .line.ready{overflow:visible}
+h1 .line>span{display:inline-block;transform:translateY(105%);animation:rise 1.1s var(--ease) forwards}
+h1 .line:nth-child(2)>span{animation-delay:.12s}
+h1 .line:nth-child(3)>span{animation-delay:.24s;color:var(--dim)}
+@keyframes rise{to{transform:none}}
+/* rotating word: smooth vertical roll */
+h1 .swap{display:inline-block;height:1.12em;overflow:hidden;vertical-align:top;margin-bottom:-.12em;padding-right:.06em}
+h1 .swap-track{display:flex;flex-direction:column;transition:transform 1s cubic-bezier(.76,0,.24,1)}
+h1 .swap-track>span{display:block;height:1.12em;line-height:1.12;white-space:nowrap}
+/* wave letters */
+h1 .lite{font-weight:300;letter-spacing:-.035em}
+h1 .k-wd{display:inline-block;white-space:nowrap}
+h1 .k-ch{display:inline-block;will-change:transform}
+.lead{font-size:18px;color:var(--muted);max-width:480px;margin-top:26px}
+.actions{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+.hero-meta{display:flex;gap:28px;margin-top:44px;color:var(--dim);font-size:13px;flex-wrap:wrap}
+.hero-meta b{display:block;color:var(--text);font-weight:600;font-size:14px}
+
+/* marquee */
+.marquee{border-bottom:1px solid var(--line);overflow:hidden;padding:22px 0;background:var(--bg2)}
+.track{display:flex;gap:48px;width:max-content;animation:scroll 34s linear infinite;font-family:var(--display);font-size:clamp(24px,3.4vw,38px);font-weight:700;letter-spacing:-.03em;color:var(--dim)}
+.track span{display:flex;align-items:center;gap:48px;white-space:nowrap}
+.track span:after{content:"✦";font-size:.6em;color:var(--line2)}
+.marquee:hover .track{animation-play-state:paused}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* sections */
+section{padding:100px 0;border-bottom:1px solid var(--line)}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:44px;flex-wrap:wrap}
+.kicker{font-size:14px;color:var(--muted);margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.kicker:before{content:"";width:26px;height:1px;background:var(--muted)}
+h2{font-family:var(--display);font-size:clamp(34px,4.6vw,58px);letter-spacing:-.045em;line-height:1.02;font-weight:800}
+.section-head p{color:var(--muted);max-width:340px;font-size:15px}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+
+/* services (accordion style rows) */
+.services{border-top:1px solid var(--line)}
+.service{border-bottom:1px solid var(--line)}
+.service button{width:100%;background:none;border:0;display:grid;grid-template-columns:60px 1fr auto;align-items:center;gap:16px;padding:26px 4px;text-align:left}
+.service .ico{font-size:26px;color:var(--dim);transition:.3s}
+.service h3{font-family:var(--display);font-size:clamp(24px,3vw,36px);letter-spacing:-.035em;font-weight:700;transition:transform .35s var(--ease)}
+.service .plus{width:36px;height:36px;border:1px solid var(--line2);border-radius:50%;display:grid;place-items:center;transition:.3s;font-size:18px}
+.service button:hover h3{transform:translateX(8px)}
+.service button:hover .ico{color:var(--text)}
+.service[data-open="true"] .plus{transform:rotate(45deg);background:var(--accent);color:var(--on-accent)}
+.service[data-open="true"] .ico{color:var(--text)}
+.panel{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s var(--ease)}
+.service[data-open="true"] .panel{grid-template-rows:1fr}
+.panel>div{overflow:hidden}
+.panel-inner{display:grid;grid-template-columns:76px 1fr 1fr;gap:16px;padding:0 4px 30px}
+.panel p{color:var(--muted);font-size:15px;max-width:48ch;grid-column:2}
+.tags{display:flex;flex-wrap:wrap;gap:8px;align-content:start}
+.tags li{list-style:none;border:1px solid var(--line2);border-radius:99px;padding:5px 12px;font-size:12.5px;color:var(--muted)}
+
+/* portfolio */
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.chip{border:1px solid var(--line2);background:none;border-radius:99px;padding:9px 16px;font-size:13px;color:var(--muted);transition:.2s}
+.chip:hover{color:var(--text);border-color:var(--text)}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.project{min-width:0;display:block;background:none;border:0;text-align:left;width:100%}
+.project[hidden]{display:none}
+.thumb{aspect-ratio:16/10;container-type:inline-size;border:1px solid var(--line2);border-radius:16px;overflow:hidden;display:block;position:relative;background:#151515;color:#f5f5f5;transition:transform .4s var(--ease),border-color .3s}
+.thumb:before{display:none;content:"";position:absolute;width:180%;height:180%;background:radial-gradient(circle at var(--mx,50%) var(--my,50%),#666 0,transparent 32%);opacity:.45;transition:opacity .3s}
+.project:hover .thumb{transform:translateY(-6px);border-color:#888}
+.thumb .view{z-index:5;position:absolute;right:14px;bottom:14px;width:auto;font-family:var(--body);font-size:12px;letter-spacing:0;font-weight:600;background:#f5f5f5;color:#070707;border-radius:99px;padding:6px 12px;opacity:0;transform:translateY(6px);transition:.3s var(--ease)}
+.project:hover .view,.project:focus-visible .view{opacity:1;transform:none}
+.thumb.travel{background:linear-gradient(135deg,#101820,#3c4b56 50%,#0b0d10)}
+.thumb.brand{background:#080808}
+.thumb.music{background:radial-gradient(circle at 70% 35%,#444,#111 38%,#050505)}
+.thumb.car{background:linear-gradient(140deg,#202020,#050505)}
+.thumb.ui{background:linear-gradient(135deg,#131313,#2c2c2c)}
+.thumb.social{background:linear-gradient(135deg,#050505,#292929)}
+/* website mockups (built in HTML/CSS, scale with their card) */
+.mock{position:absolute;inset:0;font-size:calc(100cqw/64);line-height:1.3;text-align:left;overflow:hidden;font-family:var(--body);color:#fff;font-weight:400;letter-spacing:0;background:#000}
+.mock div,.mock p{display:block}
+.mock .d{font-family:var(--display);font-weight:800;letter-spacing:-.05em;line-height:.92}
+.mock .a{position:absolute}
+.mock .bar{height:3em;background:#161616;display:flex;align-items:center;gap:.55em;padding:0 1.2em;border-bottom:1px solid #2a2a2a;position:relative;z-index:6}
+.mock .bar i{width:.8em;height:.8em;border-radius:50%;background:#3a3a3a}
+.mock .bar u{text-decoration:none;margin:0 auto;width:24em;height:1.8em;line-height:1.8em;border-radius:1em;background:#262626;color:#8d8d8d;text-align:center;font-size:1em;transform:translateX(-2em)}
+.mock .pg{position:relative;height:37em;overflow:hidden}
+.mock .btnw{display:inline-block;padding:.85em 1.5em;border-radius:3em;border:1px solid #ffffff88;font-size:1.15em;font-weight:600;white-space:nowrap}
+.mock .solid{background:#fff;color:#0b1c27;border-color:#fff}
+/* 1 travel */
+.m1 .pg{background:linear-gradient(180deg,#0f2a3d 0%,#2f5d73 52%,#e8b87a 100%)}
+.m1 .sun{position:absolute;right:20em;bottom:17em;width:7em;height:7em;border-radius:50%;background:#ffd9a0;box-shadow:0 0 6em #ffb86b}
+.m1 .mt1{position:absolute;left:0;right:0;bottom:0;height:17em;background:#0b1c27;clip-path:polygon(0 100%,0 62%,14% 38%,26% 58%,40% 22%,55% 55%,68% 34%,82% 60%,100% 40%,100% 100%)}
+.m1 .mt2{position:absolute;left:0;right:0;bottom:0;height:10em;background:#06121a;clip-path:polygon(0 100%,0 55%,18% 30%,34% 62%,52% 25%,70% 58%,88% 35%,100% 55%,100% 100%)}
+.m1 .dc{width:9em;height:12em;border-radius:1.2em;padding:1em;display:flex;align-items:flex-end;font-size:1.1em;font-weight:600;box-shadow:0 1em 2em #0006;border:1px solid #ffffff30}
+.m1 .dc small{display:block;font-size:.8em;font-weight:400;opacity:.75}
+/* 2 brand board */
+.m8 .pg{background:linear-gradient(180deg,#0a0d1a 0,#1b2240 55%,#3a2a4a 100%)}
+.m8 .sun8{position:absolute;left:50%;top:10em;width:16em;height:16em;margin-left:-8em;border-radius:50%;background:linear-gradient(180deg,#ff5a1f,#ff2e63);clip-path:inset(0 0 45% 0);opacity:.9}
+.m8 .gnd{position:absolute;left:0;right:0;bottom:0;height:19em;background:#0b0c12}
+.m8 .rd{position:absolute;left:50%;bottom:0;width:56em;height:19em;margin-left:-28em;background:#17181f;clip-path:polygon(44% 0,56% 0,100% 100%,0 100%)}
+.m8 .ln{position:absolute;left:50%;width:.7em;margin-left:-.35em;background:#e8e8ee;border-radius:.3em}
+.m8 .car8{position:absolute;left:50%;bottom:3em;width:13em;height:5.6em;margin-left:-6.5em;background:linear-gradient(180deg,#f2f2f5,#8e93a0);border-radius:2em 2em .8em .8em;box-shadow:0 1.2em 2em #000a}
+.m8 .car8:before{content:"";position:absolute;left:1.6em;right:1.6em;top:.9em;height:1.9em;background:#0c1018;border-radius:.8em}
+.m8 .car8 i{position:absolute;bottom:1.2em;width:2.2em;height:.9em;border-radius:.3em;background:#ff2e3f;box-shadow:0 0 1.4em #ff2e3f}
+.m7{background:#f3f1ea;color:#111}
+.m7 .bar{background:#e4e1d8;border-color:#d5d1c6}
+.m7 .bar i{background:#bdb9ad}
+.m7 .bar u{background:#f3f1ea;color:#777}
+.m7 .pc{flex:1;border-radius:1em;overflow:hidden;background:#fff;border:1px solid #e0ddd3}
+.m7 .th{height:9em;position:relative}
+.m7 .th div{position:absolute;left:2em;right:2em;top:2.2em;bottom:0;background:#ffffffd9;border-radius:.8em .8em 0 0}
+.m7 .pc small{display:block;padding:.9em 1.1em;font-size:1.05em;color:#555}
+.m7 .pc small b{color:#111;font-weight:600}
+.m2 .sw{width:6.8em}
+.m2 .sw div{height:6.6em;border-radius:.8em;margin-bottom:.6em}
+.m2 .sw small{display:block;font-size:1em;color:#444}
+/* 3 poster */
+.m3{background:radial-gradient(circle at 50% 40%,#2a2a2a,#0d0d0d)}
+/* 4 car */
+.m4 .pg{background:radial-gradient(ellipse at 72% 62%,#2d3239,#08090a 66%)}
+.m4 .bd{position:absolute;left:0;right:0;top:0;height:10em;clip-path:polygon(0 72%,3% 55%,20% 48%,33% 18%,50% 8%,70% 16%,80% 42%,96% 52%,100% 70%,100% 100%,0 100%);background:linear-gradient(180deg,#e6e9ee 0,#8b929c 35%,#2b2f35 70%,#0e1012)}
+.m4 .gl{position:absolute;left:13.4em;top:2.5em;width:15em;height:2.3em;clip-path:polygon(6% 100%,24% 0,68% 0,100% 100%);background:linear-gradient(#1b2530,#0a0f14)}
+.m4 .wh{position:absolute;bottom:0;width:7em;height:7em;border-radius:50%;background:radial-gradient(circle,#aaa 0 17%,#2a2a2a 18% 42%,#090909 43%);border:.35em solid #050505}
+.m4 .specs{display:flex;gap:2.6em;margin-top:2.2em;font-size:1em;color:#ffffffaa}
+.m4 .specs b{display:block;font-family:var(--display);font-size:2.2em;font-weight:700;letter-spacing:-.04em;color:#fff;line-height:1}
+/* 5 dashboard */
+.m5 .pg{background:#0e0e10;display:flex}
+.m5 .sb{width:12em;border-right:1px solid #222;padding:1.8em 1.4em;flex:none}
+.m5 .sb div.it{display:flex;align-items:center;gap:.8em;padding:.8em 1em;border-radius:.7em;font-size:1.15em;color:#9a9aa3;margin-bottom:.3em}
+.m5 .sb div.it:before{content:"";width:1em;height:1em;border-radius:.3em;background:#33333a}
+.m5 .sb div.on{background:#1f1f26;color:#fff}
+.m5 .sb div.on:before{background:#7c5cff}
+.m5 .mn{flex:1;padding:2em 2.4em;min-width:0}
+.m5 .sw5{border:1px solid #26262c;border-radius:.9em;padding:.8em;background:#141417}
+.m5 .sw5 div.c{height:4.6em;border-radius:.6em;margin-bottom:.7em}
+.m5 .sw5 small{display:block;color:#8a8a94;font-size:.95em}
+.m5 .tr{display:grid;grid-template-columns:1.4fr 1fr 1fr .8fr;gap:1em;padding:.95em 1.1em;border-bottom:1px solid #1f1f24;font-size:1.1em;color:#c9c9d0;align-items:center}
+.m5 .pill{display:inline-block;padding:.2em .8em;border-radius:2em;font-size:.95em}
+/* 6 social */
+.m6{background:#0d0d0d}
+.m6 .post{position:absolute;width:19em;border-radius:.9em;overflow:hidden;background:#141414;border:1px solid #2a2a2a;box-shadow:0 1.4em 3em #0008}
+.m6 .ph{display:flex;align-items:center;gap:.7em;height:2.6em;padding:0 1em;font-size:1.05em;color:#ddd}
+.m6 .ph:before{content:"";width:1.6em;height:1.6em;border-radius:50%;background:linear-gradient(135deg,#fff,#777)}
+.m6 .im{height:19em;padding:1.6em;display:flex;flex-direction:column;justify-content:space-between}
+.m6 .pf{height:2.2em;display:flex;align-items:center;padding:0 1em;font-size:1.2em;color:#bbb;letter-spacing:.4em}
+
+.project-meta{display:flex;justify-content:space-between;align-items:center;margin-top:14px}
+.project h3{font-family:var(--display);font-size:18px;letter-spacing:-.02em}
+.project small{color:var(--dim);font-size:13px}
+.project .arrow{color:var(--muted);transition:transform .3s var(--ease)}
+.project:hover .arrow{transform:translate(3px,-3px)}
+
+dialog{margin:auto;width:min(640px,calc(100% - 32px));background:var(--panel);color:var(--text);border:1px solid var(--line2);border-radius:20px;padding:0;overflow:auto;max-height:92vh}
+dialog::backdrop{background:#000a;backdrop-filter:blur(6px)}
+dialog[open]{animation:pop .35s var(--ease)}
+@keyframes pop{from{opacity:0;transform:translateY(16px) scale(.97)}}
+.d-art{aspect-ratio:16/10;container-type:inline-size;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.d-body{padding:28px}
+.d-body h3{font-family:var(--display);font-size:28px;letter-spacing:-.035em}
+.d-body .sub{color:var(--dim);font-size:13px;margin:4px 0 16px}
+.d-body p{color:var(--muted);font-size:15px}
+.d-foot{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}
+.d-close{position:absolute;top:14px;right:14px;background:#000a;color:#fff;border-color:#555;z-index:10}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.studio-viz{--mx:50%;--my:50%;--nx:0;--ny:0;height:420px;border-radius:18px;border:1px solid var(--line2);overflow:hidden;position:relative;background:var(--bg2);isolation:isolate}
+.sv-grid{position:absolute;inset:0;background-image:radial-gradient(var(--line2) 1.2px,transparent 1.6px);background-size:24px 24px;-webkit-mask-image:radial-gradient(ellipse 75% 75% at 50% 50%,#000 25%,transparent 100%);mask-image:radial-gradient(ellipse 75% 75% at 50% 50%,#000 25%,transparent 100%)}
+.sv-grid.hot{background-image:radial-gradient(var(--text) 1.3px,transparent 1.8px);-webkit-mask-image:radial-gradient(circle 150px at var(--mx) var(--my),#000,transparent);mask-image:radial-gradient(circle 150px at var(--mx) var(--my),#000,transparent);opacity:.9}
+.sv-glow{position:absolute;inset:0;background:radial-gradient(circle 220px at var(--mx) var(--my),color-mix(in srgb,var(--text) 9%,transparent),transparent)}
+.sv-lines{position:absolute;inset:0;width:100%;height:100%}
+.sv-lines line{stroke:var(--line2);stroke-width:1.2;stroke-dasharray:3 5;vector-effect:non-scaling-stroke;animation:svflow 2.4s linear infinite;transition:stroke .3s}
+.sv-lines line.on{stroke:var(--text)}
+@keyframes svflow{to{stroke-dashoffset:-16}}
+.sv-core{position:absolute;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;transform:translate(calc(var(--nx)*14px),calc(var(--ny)*14px));transition:transform .35s var(--ease);filter:drop-shadow(0 18px 30px #0006)}
+.sv-core svg{width:100%;height:100%;overflow:visible}
+.sv-ring{stroke-dasharray:210}
+.studio-viz.in .sv-ring{animation:ringdraw 1.8s var(--ease) .3s both}
+@keyframes ringdraw{from{stroke-dashoffset:210}to{stroke-dashoffset:0}}
+.sv-chip{position:absolute;transform:translate(-50%,-50%);padding:9px 16px;border:1px solid var(--line2);border-radius:99px;background:var(--panel);color:var(--muted);font-size:13px;font-weight:500;white-space:nowrap;transition:background .25s,color .25s,border-color .25s,transform .35s var(--ease)}
+.sv-chip:hover,.sv-chip.on{background:var(--accent);color:var(--on-accent);border-color:var(--accent);transform:translate(-50%,-50%) scale(1.06)}
+.sv-chip.c1{left:22%;top:22%}.sv-chip.c2{left:78%;top:22%}.sv-chip.c3{left:22%;top:78%}.sv-chip.c4{left:78%;top:78%}
+.sv-cap{position:absolute;left:0;right:0;bottom:18px;text-align:center;font-size:11px;letter-spacing:.3em;color:var(--dim);text-transform:uppercase}
+.about p{color:var(--muted);font-size:16px;max-width:50ch;margin-top:18px}
+.values{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:34px}
+.value{border-top:1px solid var(--line2);padding-top:14px;font-size:14px;color:var(--muted)}
+.value b{display:block;color:var(--text);font-size:15px;margin-bottom:4px}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:s;position:relative}
+.step{padding:0 24px 0 0;position:relative}
+.step:before{content:"";display:block;height:1px;background:var(--line2);margin-bottom:26px}
+.step:after{content:"";position:absolute;top:-4px;left:0;width:9px;height:9px;border-radius:50%;background:var(--accent)}
+.step .num{color:var(--dim);font-size:13px;font-variant-numeric:tabular-nums}
+.step h3{font-family:var(--display);font-size:24px;letter-spacing:-.03em;margin:10px 0 8px}
+.step p{font-size:14px;color:var(--muted);max-width:26ch}
+
+
+
+/* more demo sites */
+.m9 .pg{background:#1a110c}
+.m9 .plate{position:absolute;right:5em;top:4.5em;width:25em;height:25em;border-radius:50%;background:radial-gradient(circle,#efe3cd 0 36%,#d6c3a2 37% 39%,#efe3cd 40% 68%,#c4ad84 69% 71%,#e8dac0 72%);box-shadow:0 2em 4em #000a}
+.m9 .fd{position:absolute;border-radius:50%}
+.m10 .pg{background:#0b0b0c}
+.m10 .ring10{position:absolute;right:13.5em;top:7.5em;width:18em;height:18em;border-radius:50%;background:conic-gradient(#ff3b1f 0 82%,#26262a 0)}
+.m10 .ri{position:absolute;inset:2.3em;border-radius:50%;background:#0b0b0c;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.m10 .card10{position:absolute;background:#16161a;border:1px solid #2a2a30;border-radius:1em;padding:1.1em 1.4em;font-size:1.1em;color:#a8a8b2}
+.m10 .card10 b{display:block;font-family:var(--display);font-size:2.2em;color:#fff;letter-spacing:-.04em;line-height:1.1}
+.m11{background:#f6f7fb;color:#0f1222}
+.m11 .bar{background:#e9ebf3;border-color:#d9dceb}.m11 .bar i{background:#c3c7d9}.m11 .bar u{background:#f6f7fb;color:#7a7f96}
+.m11 .pg{background:#f6f7fb}
+.m11 .dash{position:absolute;left:9em;right:9em;top:29.2em;height:20em;background:#fff;border:1px solid #e3e6f2;border-radius:1.2em;box-shadow:0 1.5em 3em #2a3a8c1f;padding:1.6em 2em}
+.m11 .bars{display:flex;align-items:flex-end;gap:.9em;height:8em;margin-top:1.2em}
+.m11 .bars i{flex:1;border-radius:.4em .4em 0 0;background:linear-gradient(#5b7bff,#a9b9ff)}
+.m11 .btnw{border-color:#0f122244}
+.m11 .btnw.solid{background:#0f1222;color:#fff;border-color:#0f1222}
+.m12{background:#f1ece3;color:#2a211a}
+.m12 .bar{background:#e4ddd0;border-color:#d6cebf}.m12 .bar i{background:#bdb4a2}.m12 .bar u{background:#f1ece3;color:#80776a}
+.m12 .pg{background:#f1ece3}
+.m12 .btnw{border-color:#2a211a55}
+.m12 .btnw.solid{background:#2a211a;color:#f1ece3;border-color:#2a211a}
+.m12 .pi{position:relative;height:12em;border-radius:.8em;overflow:hidden;margin-bottom:.8em}
+.m12 .pi i{position:absolute;display:block}
+.m12 .prod{width:8.6em;font-size:1.05em}
+.m12 .prod small{display:block;color:#80776a;font-size:.95em}
+
+
+/* demo sites, batch 3 */
+.m13,.m14{color:#12263a}
+.m13 .bar,.m14 .bar{background:#e6e9ee;border-color:#d6dae1}.m13 .bar i,.m14 .bar i{background:#bfc5cf}.m13 .bar u,.m14 .bar u{background:#f5f7fa;color:#7b8594}
+.m13 .pg{background:#eef2f6}
+.m13 .btnw,.m14 .btnw{border-color:#12263a44}
+.m13 .btnw.solid{background:#12263a;color:#fff;border-color:#12263a}
+.m13 .panel13{position:absolute;right:3.5em;top:6.6em;width:26em;height:27em;border-radius:1.4em;background:linear-gradient(180deg,#bcd8ea,#eaf3f8 62%);overflow:hidden;box-shadow:0 1.4em 3em #12263a22}
+.m13 .panel13 i{position:absolute;display:block}
+.m14{background:#fff7e6}
+.m14 .pg{background:#fff7e6}
+.m14 .btnw.solid{background:#3b2bd6;color:#fff;border-color:#3b2bd6}
+.m14 .crs{position:absolute;width:19em;background:#fff;border:1px solid #efe3c8;border-radius:1.1em;padding:1.3em 1.5em;box-shadow:0 1.2em 2.4em #3b2bd61f;color:#1b1840}
+.m14 .crs small{display:block;font-size:1em;letter-spacing:.12em;color:#7b76a8;margin-bottom:.5em}
+.m14 .crs .tr14{height:.7em;border-radius:1em;background:#ece7fb;margin-top:1em;overflow:hidden}
+.m14 .crs .tr14 i{display:block;height:100%;background:#3b2bd6;border-radius:1em}
+.m15 .pg{background:#0c0c0d}
+.m15 .ph{position:absolute;border-radius:.7em;overflow:hidden}
+.m15 .ph i{position:absolute;display:block}
+
+/* pricing */
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
+.plan{border:1px solid var(--line2);border-radius:20px;padding:30px;display:flex;flex-direction:column;gap:20px;background:var(--bg2);position:relative;transition:transform .35s var(--ease),border-color .3s}
+.plan:hover{transform:translateY(-6px);border-color:var(--text)}
+.plan .tier{font-size:13px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.plan h3{font-family:var(--display);font-size:28px;letter-spacing:-.04em;line-height:1.05;margin-top:-6px}
+.plan .for{font-size:15px;color:var(--muted);min-height:3.1em}
+.plan-list{list-style:none;display:grid;gap:11px;font-size:14.5px;padding-top:20px;border-top:1px solid var(--line2);flex:1}
+.plan-list li{display:flex;gap:10px;align-items:flex-start}
+.plan-list li:before{content:"✓";font-size:13px;line-height:1.55;color:var(--dim)}
+.plan .quote{font-size:13px;color:var(--dim)}
+.plan .btn{justify-content:center;width:100%}
+.plan .badge{border:1px solid currentColor;border-radius:99px;padding:3px 11px;font-size:11.5px;letter-spacing:.04em}
+.plan.feat{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.plan.feat .tier,.plan.feat .for,.plan.feat .quote,.plan.feat .plan-list li:before{color:inherit;opacity:.72}
+.plan.feat .plan-list{border-color:color-mix(in srgb,var(--on-accent) 25%,transparent)}
+.plan.feat .btn{background:var(--on-accent);color:var(--accent);border-color:var(--on-accent)}
+
+/* FAQ */
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px}
+details{border-bottom:1px solid var(--line);padding:22px 0}
+details:first-of-type{border-top:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;font-family:var(--display);font-size:20px;letter-spacing:-.02em;font-weight:600}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font-size:24px;color:var(--muted);transition:transform .3s var(--ease)}
+details[open] summary:after{transform:rotate(45deg)}
+details p{color:var(--muted);font-size:15px;margin-top:12px;max-width:60ch}
+
+/* contact */
+.contact{padding:80px 0}
+.contact-box{border:1px solid var(--line2);border-radius:24px;padding:48px;display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;background:radial-gradient(circle at 0 0,color-mix(in srgb,var(--text) 8%,transparent),transparent 55%)}
+.contact h2{margin-bottom:14px}
+.contact-side p{color:var(--muted);font-size:16px;max-width:36ch}
+.contact-links{display:flex;flex-direction:column;margin-top:30px}
+.contact-links a{border-bottom:1px solid var(--line);padding:13px 0;display:flex;justify-content:space-between;color:var(--muted);font-size:14px;transition:.2s}
+.contact-links a:hover{color:var(--text);padding-left:6px}
+.contact-links .na{border-bottom:1px solid var(--line);padding:13px 0;display:flex;justify-content:space-between;color:var(--dim);font-size:14px;cursor:default}
+.contact-links .na span{font-size:12.5px}
+form{display:grid;gap:16px;align-content:start}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{display:grid;gap:7px;font-size:13px;color:var(--muted)}
+input,select,textarea{font:inherit;font-size:15px;color:var(--text);background:var(--bg);border:1px solid var(--line2);border-radius:12px;padding:13px 14px;width:100%;transition:border-color .2s}
+textarea{min-height:120px;resize:vertical}
+input:hover,select:hover,textarea:hover{border-color:var(--dim)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--text)}
+input:user-invalid,textarea:user-invalid{border-color:#f87171}
+.form-note{font-size:12.5px;color:var(--dim)}
+#formMsg{font-size:14px;color:#4ade80;min-height:20px}
+
+/* footer */
+footer{padding:30px 0 40px;color:var(--dim);font-size:13px}
+.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+.foot strong{color:var(--text)}
+.footlinks{display:flex;gap:20px}
+.footlinks a:hover{color:var(--text)}
+.top{border:1px solid var(--line2);border-radius:99px;padding:8px 14px;background:none;font-size:12px;color:var(--muted)}
+.top:hover{color:var(--text);border-color:var(--text)}
+
+/* mouse cursor */
+.cur{position:fixed;top:0;left:0;z-index:2147483000;pointer-events:none;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#fff;mix-blend-mode:difference;opacity:0;display:grid;place-items:center;overflow:hidden;font:600 13px/1 var(--body);color:transparent;
+  transition:opacity .25s,width .35s var(--ease),height .35s var(--ease),margin .35s var(--ease),background .25s,color .2s}
+.cur.on{opacity:1}
+.cur.link{width:46px;height:46px;margin:-23px 0 0 -23px}
+.cur.link.press{width:34px;height:34px;margin:-17px 0 0 -17px}
+.cur.label{width:88px;height:88px;margin:-44px 0 0 -44px;mix-blend-mode:normal;background:var(--text);color:var(--on-accent)}
+html.has-cur,html.has-cur *{cursor:none}
+html.has-cur input,html.has-cur textarea,html.has-cur select{cursor:auto}
+html.has-cur:has(dialog[open]),html.has-cur:has(dialog[open]) *{cursor:auto}
+html:has(dialog[open]) .cur{display:none}
+html.has-cur .thumb .view{display:none}
+@media(hover:none),(pointer:coarse){.cur{display:none}}
+
+/* responsive */
+@media(max-width:1100px){
+  .navlinks{gap:20px}
+  .nav-cta{display:none}
+}
+@media(max-width:900px){
+  .navlinks{display:none}
+  .navlinks.open{display:flex;position:absolute;top:72px;left:0;right:0;flex-direction:column;gap:0;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 24px 20px}
+  .navlinks.open a{padding:14px 0;font-size:17px;border-bottom:1px solid var(--line)}
+  .menu{display:grid}
+}
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr;min-height:auto;max-height:none}
+  .hero-copy{padding:60px 0 10px}
+  .projects{grid-template-columns:repeat(2,1fr)}
+  .about-grid,.faq-grid,.contact-box{grid-template-columns:1fr;gap:36px}
+  .steps{grid-template-columns:repeat(2,1fr);row-gap:36px}
+  .plans{grid-template-columns:1fr;max-width:560px}
+  .plan .for{min-height:0}
+  .panel-inner{grid-template-columns:1fr}
+  .panel p{grid-column:1}
+}
+@media(max-width:640px){
+  .wrap{width:calc(100% - 32px)}
+  nav{height:64px}
+  .navlinks{display:none}
+  .navlinks.open{display:flex;position:absolute;top:64px;left:0;right:0;flex-direction:column;gap:0;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 24px 20px}
+  .navlinks.open a{padding:14px 0;font-size:17px;border-bottom:1px solid var(--line)}
+  .nav-cta{display:none}
+  .menu{display:grid}
+  section{padding:68px 0}
+  .projects{grid-template-columns:1fr}
+  .row{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .contact-box{padding:26px}
+  .service button{grid-template-columns:40px 1fr auto}
+  .studio-viz{height:320px}
+  .sv-core{width:112px;height:112px;margin:-56px 0 0 -56px}
+  .sv-chip{font-size:12px;padding:7px 12px}
+  .values{gap:14px}
+  .foot{flex-direction:column;align-items:flex-start}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  h1 .line>span{transform:none}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div id="progress" aria-hidden="true"></div>
+
+<header><div class="wrap"><nav aria-label="Primary">
+  <a class="logo" href="#home" aria-label="TACHREF STUDIO home"><svg class="mark" viewBox="0 0 120 120" aria-hidden="true"><rect width="120" height="120" rx="30" class="mk-tile"/><path d="M 28.9 91.1 A 44 44 0 1 1 91.1 91.1" fill="none" stroke="#FF5A1F" stroke-width="9" stroke-linecap="round"/><path d="M40 44H80M60 44V86" fill="none" class="mk-t" stroke-width="11" stroke-linecap="round"/></svg><span class="mk-name">TACHREF <span>STUDIO®</span></span></a>
+  <div class="navlinks" id="navlinks">
+    <a href="#home">Home</a><a href="#services">Services</a><a href="#portfolio">Work</a><a href="#about">About</a><a href="#process">Process</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+  </div>
+  <div class="nav-actions">
+    <button class="icon-btn" id="theme" aria-label="Switch to light theme" title="Toggle theme">◐</button>
+    <a class="pill nav-cta" href="#contact">Start a project ↗</a>
+    <button class="icon-btn menu" id="menu" aria-label="Open menu" aria-expanded="false" aria-controls="navlinks">☰</button>
+  </div>
+</nav></div></header>
+
+<main id="main">
+<div class="wrap hero" id="home">
+  <div class="hero-copy">
+    <div class="status"><i class="dot"></i> Taking new projects</div>
+    <h1 id="heroWaveTitle" aria-label="We build digital experiences that matter.">
+      <span class="line" aria-hidden="true"><span>We build</span></span>
+      <span class="line" aria-hidden="true"><span><span class="lite">digital</span> <span class="swap"><span class="swap-track" id="swapTrack"><span>experiences</span><span>brands</span><span>websites</span><span>interfaces</span><span>identities</span><span>experiences</span></span></span></span></span>
+      <span class="line" aria-hidden="true"><span>that matter.</span></span>
+    </h1>
+    <p class="lead">Websites, brands and interfaces for ambitious businesses, designed and built by one small studio.</p>
+    <div class="actions">
+      <a class="btn primary" href="#portfolio">View our work <span class="arr">→</span></a>
+      <a class="btn" href="#contact">Start a project <span class="arr">↗</span></a>
+    </div>
+    <div class="hero-meta">
+      <div><b>Web · Brand · UI/UX</b>Four disciplines, one team</div>
+      <div><b>Worldwide</b>Remote-first collaboration</div>
+    </div>
+  </div>
+</div>
+
+<div class="marquee" aria-hidden="true"><div class="track" id="track">
+  <span>Web Development</span><span>Graphic Design</span><span>Brand Identity</span><span>UI / UX Design</span>
+</div></div>
+
+<section id="services"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">Services</div><h2>What we do</h2></div><p>Four disciplines that work best together. Hire one or all of them.</p></div>
+  <div class="services reveal" id="serviceList">
+    <article class="service" data-open="true">
+      <button aria-expanded="true"><span class="ico">⌘</span><h3>Web development</h3><span class="plus" aria-hidden="true">+</span></button>
+      <div class="panel"><div><div class="panel-inner"><p>Fast, responsive websites that look sharp on every screen and are easy for you to update.</p><ul class="tags"><li>Business websites</li><li>Landing pages</li><li>Portfolios</li><li>Performance and SEO</li></ul></div></div></div>
+    </article>
+    <article class="service" data-open="false">
+      <button aria-expanded="false"><span class="ico">◉</span><h3>Graphic design</h3><span class="plus" aria-hidden="true">+</span></button>
+      <div class="panel"><div><div class="panel-inner"><p>Posters, social campaigns and marketing visuals that make your brand easy to notice and remember.</p><ul class="tags"><li>Posters</li><li>Social media</li><li>Print layouts</li><li>Campaign visuals</li></ul></div></div></div>
+    </article>
+    <article class="service" data-open="false">
+      <button aria-expanded="false"><span class="ico">◇</span><h3>Brand identity</h3><span class="plus" aria-hidden="true">+</span></button>
+      <div class="panel"><div><div class="panel-inner"><p>A logo, colors and type system that look consistent everywhere your business shows up.</p><ul class="tags"><li>Logo design</li><li>Color and type</li><li>Brand guidelines</li><li>Stationery</li></ul></div></div></div>
+    </article>
+    <article class="service" data-open="false">
+      <button aria-expanded="false"><span class="ico">▣</span><h3>UI / UX design</h3><span class="plus" aria-hidden="true">+</span></button>
+      <div class="panel"><div><div class="panel-inner"><p>Clear, usable product interfaces, from first wireframe to a polished, clickable prototype.</p><ul class="tags"><li>Wireframes</li><li>Prototypes</li><li>Design systems</li><li>App and web UI</li></ul></div></div></div>
+    </article>
+  </div>
+</div></section>
+
+<section id="portfolio"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">Work</div><h2>Selected projects</h2></div><a class="btn" href="#contact">Have a project? <span class="arr">↗</span></a></div>
+  <div class="filters reveal" role="group" aria-label="Filter projects">
+    <button class="chip" aria-pressed="true" data-f="all">All</button>
+    <button class="chip" aria-pressed="false" data-f="web">Web development</button>
+    <button class="chip" aria-pressed="false" data-f="graphic">Graphic design</button>
+    <button class="chip" aria-pressed="false" data-f="ui">UI / UX</button>
+  </div>
+  <div class="projects" id="projects">
+    <button class="project" data-cat="web" data-id="0"><span class="thumb travel"><div class="mock m1"><div class="bar"><i></i><i></i><i></i><u>northbound.travel</u></div><div class="pg"><div class="sun"></div><div class="mt1"></div><div class="mt2"></div><div class="a" style="left:0;right:0;top:0;padding:1.8em 3.5em;display:flex;align-items:center;justify-content:space-between;z-index:3"><div class="d" style="font-size:1.9em">Northbound</div><div style="display:flex;gap:2.4em;font-size:1.15em;color:#ffffffcc"><span>Destinations</span><span>Journeys</span><span>Stories</span></div><div class="btnw" style="padding:.6em 1.3em">Book a trip</div></div><div class="a" style="left:3.5em;top:8.6em;z-index:3;width:32em"><div style="font-size:1em;letter-spacing:.22em;color:#ffffffaa;margin-bottom:1.2em">HANDPICKED JOURNEYS</div><div class="d" style="font-size:7em">Explore<br>more.</div><div style="font-size:1.3em;color:#ffffffcc;margin:1.3em 0 1.5em;max-width:19em">Slow, small-group trips to the quietest corners of the world.</div><div class="btnw solid">Plan your trip →</div></div><div class="a" style="right:3.5em;bottom:3em;z-index:3;display:flex;gap:1em"><div class="dc" style="background:linear-gradient(160deg,#3d7a8a,#0f2a3d)"><div>Lofoten<small>Norway</small></div></div><div class="dc" style="background:linear-gradient(160deg,#c97b5a,#3a1f2b)"><div>Patagonia<small>Chile</small></div></div></div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Travel Landing Page</h3><small>Web development</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="graphic" data-id="1"><span class="thumb brand"><div class="mock m2"><div class="a" style="inset:0;background:#e8e6e0"></div><div class="a" style="left:2.5em;top:2.5em;width:27em;height:35em;border-radius:1.2em;background:#080808;display:flex;flex-direction:column;justify-content:space-between;padding:2.4em"><div style="font-size:1.05em;letter-spacing:.22em;color:#888">BRAND IDENTITY</div><div class="d" style="font-size:14.5em;letter-spacing:-.08em">TM<span style="color:#ff4d2e">.</span></div><div style="font-size:1.2em;color:#aaa">TM Agency<br>Talent &amp; Management</div></div><div class="a" style="left:33em;top:3.2em;width:17em;height:10em;background:#080808;border-radius:.7em;padding:1.4em;transform:rotate(-4deg);box-shadow:0 1em 2em #0004;display:flex;flex-direction:column;justify-content:space-between"><div class="d" style="font-size:2.4em">TM<span style="color:#ff4d2e">.</span></div><div style="font-size:1.05em;color:#bbb"><div style="color:#fff;font-weight:600">Tara Mehra</div>Founder &amp; Director</div></div><div class="a" style="left:47em;top:6.6em;width:15em;height:9.5em;background:#fff;color:#080808;border-radius:.7em;padding:1.3em;transform:rotate(5deg);box-shadow:0 1em 2em #0003;display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:1em;letter-spacing:.2em;color:#888">TM.AGENCY</div><div style="font-size:1.05em">hello@tm.agency<br>+880 1X XXX XXXX</div></div><div class="a" style="left:31.5em;top:19.5em;display:flex;gap:.9em;color:#080808"><div class="sw"><div style="background:#080808"></div><small>Ink</small></div><div class="sw"><div style="background:#f4f2ec;border:1px solid #cfcdc6"></div><small>Paper</small></div><div class="sw"><div style="background:#ff4d2e"></div><small>Signal</small></div><div class="sw"><div style="background:#8a8a85"></div><small>Slate</small></div></div><div class="a" style="left:31.5em;top:31.2em;width:30em;color:#080808;display:flex;align-items:flex-end;gap:2em"><div class="d" style="font-size:6em">Aa</div><div style="font-size:1.1em;color:#555;padding-bottom:.6em">Bricolage Grotesque<br>Instrument Sans</div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>TM Agency Branding</h3><small>Graphic design</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="graphic" data-id="2"><span class="thumb music"><div class="mock m3"><div class="a" style="left:7em;top:6em;width:22em;height:30em;background:#efe9dc;color:#111;transform:rotate(-8deg);padding:2em;box-shadow:0 1.5em 3em #0008"><div style="font-size:1em;letter-spacing:.22em;color:#777">LIVE SERIES · VOL.02</div><div class="d" style="font-size:7em;margin-top:.5em">FIELD<br>NOISE</div><div class="a" style="right:2em;bottom:2em;width:7em;height:7em;border-radius:50%;background:#e63b2e"></div><div class="a" style="left:2em;bottom:2em;font-size:1.05em;color:#555">Analog synths,<br>tape &amp; room tone.</div></div><div class="a" style="left:30em;top:3.2em;width:22em;height:33.6em;background:#0b0b0b;border:1px solid #333;box-shadow:0 2em 4em #000a;overflow:hidden"><div class="a" style="inset:0;background:repeating-radial-gradient(circle at 50% 38%,#ffffff1f 0 .15em,transparent .15em 1.1em)"></div><div class="a" style="left:5.5em;top:6.5em;width:11em;height:11em;border-radius:50%;background:#e63b2e"></div><div class="d" style="position:absolute;left:0;right:0;top:5.2em;text-align:center;font-size:15em;letter-spacing:0;font-weight:800;mix-blend-mode:difference">音</div><div class="a" style="left:1.8em;right:1.8em;bottom:1.8em"><div class="d" style="font-size:3.4em">LIVE TOUR<br>2026</div><div style="display:flex;justify-content:space-between;font-size:1em;letter-spacing:.12em;color:#aaa;margin-top:1.2em;border-top:1px solid #444;padding-top:.9em"><span>14.03 TOKYO</span><span>21.03 OSAKA</span><span>28.03 KYOTO</span></div></div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Music Poster Design</h3><small>Graphic design</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="web" data-id="3"><span class="thumb car"><div class="mock m4"><div class="bar"><i></i><i></i><i></i><u>drive.motors/aero-s</u></div><div class="pg"><div class="a d" style="left:2em;bottom:-3em;font-size:25em;color:#ffffff09;letter-spacing:-.07em">DRIVE.</div><div class="a" style="left:0;right:0;top:0;padding:1.8em 3.5em;display:flex;align-items:center;justify-content:space-between;z-index:3"><div class="d" style="font-size:1.9em">DRIVE.</div><div style="display:flex;gap:2.4em;font-size:1.15em;color:#ffffffbb"><span>Models</span><span>Range</span><span>Charging</span><span>Support</span></div><div class="btnw solid" style="padding:.6em 1.3em;color:#0a0a0a">Test drive</div></div><div class="a" style="left:3.5em;top:9em;z-index:3"><div style="font-size:1em;letter-spacing:.22em;color:#ffffff88;margin-bottom:1.1em">ALL-ELECTRIC · 2026</div><div class="d" style="font-size:5.4em">Meet the<br>Aero S</div><div class="specs"><div><b>3.2s</b>0–100 km/h</div><div><b>620</b>km range</div><div><b>480</b>kW peak</div></div><div class="btnw solid" style="margin-top:2.4em;color:#0a0a0a">Book a test drive →</div></div><div class="a" style="right:2em;bottom:4.5em;width:38em;height:17em;z-index:2"><div class="a" style="left:3em;bottom:-1.4em;width:32em;height:2.4em;background:radial-gradient(ellipse,#000 0,transparent 70%)"></div><div class="bd"></div><div class="gl"></div><div class="a" style="right:0;top:6.4em;width:2.6em;height:.35em;background:#fff;box-shadow:0 0 1.2em #fff"></div><div class="wh" style="left:5em"></div><div class="wh" style="right:5em"></div></div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Car Showcase Website</h3><small>Web development</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="ui" data-id="4"><span class="thumb ui"><div class="mock m5"><div class="bar"><i></i><i></i><i></i><u>form.app/tokens</u></div><div class="pg"><div class="sb"><div class="d" style="font-size:1.8em;margin-bottom:1.6em">form<span style="color:#7c5cff">/</span>01</div><div class="it">Overview</div><div class="it on">Tokens</div><div class="it">Components</div><div class="it">Themes</div><div class="it">Export</div></div><div class="mn"><div style="display:flex;justify-content:space-between;align-items:flex-start"><div><div class="d" style="font-size:2.6em">Design tokens</div><div style="font-size:1.1em;color:#8a8a94;margin-top:.6em">128 tokens · 4 themes · synced 2 min ago</div></div><div style="background:#7c5cff;border-radius:.7em;padding:.7em 1.3em;font-size:1.1em;font-weight:600">+ New token</div></div><div style="display:flex;gap:2em;font-size:1.15em;color:#8a8a94;margin:1.6em 0 1.2em;border-bottom:1px solid #222;padding-bottom:.7em"><span style="color:#fff;border-bottom:2px solid #7c5cff;padding-bottom:.65em">Color</span><span>Type</span><span>Spacing</span><span>Radius</span></div><div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1em"><div class="sw5"><div class="c" style="background:#111113;border:1px solid #2c2c33"></div>color/surface<small>#111113</small></div><div class="sw5"><div class="c" style="background:#7c5cff"></div>color/accent<small>#7C5CFF</small></div><div class="sw5"><div class="c" style="background:#f5f5f7"></div>color/text<small>#F5F5F7</small></div><div class="sw5"><div class="c" style="background:#4ade80"></div>color/success<small>#4ADE80</small></div></div><div style="margin-top:1.6em"><div class="tr" style="color:#6d6d77;font-size:.95em;letter-spacing:.1em"><span>TOKEN</span><span>VALUE</span><span>USED IN</span><span>STATUS</span></div><div class="tr"><span>radius/md</span><span>12px</span><span>Button, Card</span><span><span class="pill" style="background:#10301c;color:#4ade80">Synced</span></span></div><div class="tr"><span>space/lg</span><span>24px</span><span>Layout</span><span><span class="pill" style="background:#33290d;color:#fbbf24">Draft</span></span></div></div></div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Product UI Concept</h3><small>UI / UX design</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="graphic" data-id="6"><span class="thumb social"><div class="mock m6"><div class="post" style="left:3em;top:8.5em;transform:rotate(-3deg)"><div class="ph">@makeitmatter</div><div class="im" style="background:#f5f5f5;color:#080808"><div class="d" style="font-size:4em">MAKE<br>IT<br>MATTER.</div><div style="font-size:1.1em;letter-spacing:.2em">SPRING CAMPAIGN</div></div><div class="pf">♡ ◌ ➤</div></div><div class="post" style="left:22.5em;top:4em;transform:rotate(0deg)"><div class="ph">@makeitmatter</div><div class="im" style="background:#080808;color:#fff"><div class="d" style="font-size:4.6em;color:transparent;-webkit-text-stroke:.04em #fff">IDEAS<br>OVER<br>NOISE.</div><div style="font-size:1.1em;color:#999">Swipe for the full story →</div></div><div class="pf">♡ ◌ ➤</div></div><div class="post" style="left:42em;top:9em;transform:rotate(3deg)"><div class="ph">@makeitmatter</div><div class="im" style="background:#ffe14d;color:#080808"><div style="font-size:1.1em;letter-spacing:.2em">STORY 01</div><div class="d" style="font-size:5em">Say<br>it<br>loud.</div></div><div class="pf">♡ ◌ ➤</div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Social Campaign</h3><small>Creative design</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="web" data-id="5"><span class="thumb ui"><div class="mock m7"><div class="bar"><i></i><i></i><i></i><u>mira.design</u></div><div class="pg"><div class="a" style="left:0;right:0;top:0;padding:1.8em 3.5em;display:flex;align-items:center;justify-content:space-between"><div class="d" style="font-size:1.8em">Mira Chen</div><div style="display:flex;gap:2.4em;font-size:1.15em;color:#555"><span>Work</span><span>About</span><span>Contact</span></div><div style="display:flex;align-items:center;gap:.7em;border:1px solid #cfcbbf;border-radius:3em;padding:.55em 1.2em;font-size:1.05em"><span style="width:.7em;height:.7em;border-radius:50%;background:#2fbf6b;display:inline-block"></span>Available for hire</div></div><div class="a" style="left:3.5em;top:7.2em;width:52em"><div style="font-size:1em;letter-spacing:.22em;color:#777;margin-bottom:1.1em">PRODUCT DESIGNER</div><div class="d" style="font-size:4.9em;line-height:1">I design calm, clear<br>digital products.</div></div><div class="a" style="left:3.5em;top:20.2em;font-size:1em;letter-spacing:.2em;color:#777">SELECTED WORK (03)</div><div class="a" style="left:3.5em;right:3.5em;top:22.6em;display:flex;gap:1.3em"><div class="pc"><div class="th" style="background:linear-gradient(160deg,#ffd9c2,#ff9d6c)"><div></div></div><small><b>Orbit</b> · Banking app</small></div><div class="pc"><div class="th" style="background:linear-gradient(160deg,#cfe3ff,#6c8cff)"><div></div></div><small><b>Fieldnote</b> · Notes tool</small></div><div class="pc"><div class="th" style="background:linear-gradient(160deg,#d7f0d0,#5aa56a)"><div></div></div><small><b>Greenhouse</b> · Plant care</small></div></div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Portfolio Website</h3><small>Web development</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="web" data-id="7"><span class="thumb car"><div class="mock m8"><div class="bar"><i></i><i></i><i></i><u>apex rush</u></div><div class="pg"><div class="sun8"></div><div class="gnd"></div><div class="rd"></div><div class="ln" style="bottom:2em;height:2.4em;opacity:1"></div><div class="ln" style="bottom:6.4em;height:1.6em;opacity:0.9"></div><div class="ln" style="bottom:10em;height:1em;opacity:0.8"></div><div class="ln" style="bottom:13em;height:0.6em;opacity:0.7"></div><div class="ln" style="bottom:15.4em;height:0.4em;opacity:0.6"></div><div class="car8"><i style="left:.9em"></i><i style="right:.9em"></i></div><div class="a d" style="left:2.4em;top:2em;font-size:3.6em;font-style:italic">APEX<br>RUSH</div><div class="a" style="right:2.4em;top:2.2em;text-align:right"><div class="d" style="font-size:4.4em">246</div><div style="font-size:1em;letter-spacing:.2em;color:#ffffffaa">KM/H</div></div><div class="a" style="left:2.4em;bottom:2.4em;font-size:1.1em;letter-spacing:.16em;color:#ffffffbb">LAP 2 / 3<br><span style="color:#fff;font-weight:600">POS 1st</span></div><div class="a" style="right:2.4em;bottom:2.4em;width:13em"><div style="height:.6em;border-radius:1em;background:#ffffff22;overflow:hidden"><div style="width:74%;height:100%;background:#ff5a1f"></div></div><div style="font-size:1em;letter-spacing:.16em;color:#ffffffaa;margin-top:.6em;text-align:right">BOOST</div></div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Apex Rush</h3><small>Web development</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="web" data-id="8"><span class="thumb ui"><div class="mock m9"><div class="bar"><i></i><i></i><i></i><u>saffronandsmoke.com</u></div><div class="pg"><div class="a" style="left:0;right:0;top:0;padding:1.8em 3.5em;display:flex;align-items:center;justify-content:space-between;z-index:3"><div class="d" style="font-size:1.9em">Saffron &amp; Smoke</div><div style="display:flex;gap:2.4em;font-size:1.15em;opacity:.75"><span>Menu</span><span>Our story</span><span>Visit</span></div><div class="btnw" style="padding:.6em 1.3em">Reserve</div></div><div class="a" style="left:3.5em;top:9em;z-index:3;width:30em"><div style="font-size:1em;letter-spacing:.22em;color:#e0a96d;margin-bottom:1.1em">WOOD-FIRED KITCHEN</div><div class="d" style="font-size:4.7em;white-space:nowrap">Fire, spice<br>&amp; slow time.</div><div style="font-size:1.3em;color:#ffffffb0;margin:1.2em 0 1.5em;max-width:19em">Seasonal plates cooked over open flame, shared at one long table.</div><div style="display:flex;gap:1em"><div class="btnw solid" style="color:#1a110c;background:#efe3cd;border-color:#efe3cd">Reserve a table</div><div class="btnw">View menu</div></div></div><div class="plate"><div class="fd" style="left:5em;top:6em;width:8.5em;height:8.5em;background:radial-gradient(circle at 35% 30%,#f0a255,#c9561b)"></div><div class="fd" style="left:13em;top:5em;width:5.2em;height:5.2em;background:radial-gradient(circle at 35% 30%,#8fb06a,#4f6f36)"></div><div class="fd" style="left:12em;top:12em;width:7em;height:7em;background:radial-gradient(circle at 35% 30%,#7a4a2e,#3a2013)"></div><div class="fd" style="left:7.4em;top:15.2em;width:3em;height:3em;background:#c9561b;opacity:.85"></div></div><div class="a" style="right:3em;bottom:2.6em;z-index:4;background:#2a1b13;border:1px solid #4a3426;border-radius:1em;padding:1em 1.5em;font-size:1.1em;color:#e8d9c0">Open daily · 12 – 11 pm</div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Restaurant Website</h3><small>Web development</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="web" data-id="9"><span class="thumb ui"><div class="mock m10"><div class="bar"><i></i><i></i><i></i><u>pulsefit.studio</u></div><div class="pg"><div class="a" style="left:0;right:0;top:0;padding:1.8em 3.5em;display:flex;align-items:center;justify-content:space-between;z-index:3"><div class="d" style="font-size:1.9em">PULSE<span style="color:#ff3b1f">.</span></div><div style="display:flex;gap:2.4em;font-size:1.15em;opacity:.75"><span>Classes</span><span>Trainers</span><span>Plans</span></div><div class="btnw solid" style="padding:.6em 1.3em;background:#ff3b1f;border-color:#ff3b1f;color:#fff">Join now</div></div><div class="a" style="left:3.5em;top:8em;z-index:3"><div style="font-size:1em;letter-spacing:.22em;color:#ff7a5f;margin-bottom:1.1em">STRENGTH · CARDIO · COACHING</div><div class="d" style="font-size:5.6em">Stronger<br>every<br>week.</div><div style="display:flex;gap:1em;margin-top:1.8em"><div class="btnw solid" style="background:#ff3b1f;border-color:#ff3b1f;color:#fff">Start free trial</div><div class="btnw">See classes</div></div></div><div class="ring10"><div class="ri"><div class="d" style="font-size:4.6em">82%</div><div style="font-size:1.1em;color:#8b8b95;margin-top:.5em">weekly goal</div></div></div><div class="card10" style="right:2.5em;top:8.5em"><b>12</b>sessions this month</div><div class="card10" style="right:2.5em;bottom:3em"><b style="font-size:1.7em">6:30 PM</b>HIIT · Studio B</div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Fitness Studio Website</h3><small>Web development</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="web" data-id="10"><span class="thumb ui"><div class="mock m11"><div class="bar"><i></i><i></i><i></i><u>useloop.app</u></div><div class="pg"><div class="a" style="left:0;right:0;top:0;padding:1.8em 3.5em;display:flex;align-items:center;justify-content:space-between"><div style="display:flex;align-items:center;gap:.7em"><span style="width:2em;height:2em;border-radius:50%;background:linear-gradient(135deg,#5b7bff,#9b6bff);display:inline-block"></span><span class="d" style="font-size:1.9em">Loop</span></div><div style="display:flex;gap:2.4em;font-size:1.15em;color:#5b607a"><span>Product</span><span>Pricing</span><span>Docs</span></div><div style="display:flex;align-items:center;gap:1.6em;font-size:1.15em"><span style="color:#5b607a">Sign in</span><div class="btnw solid" style="padding:.6em 1.3em">Start free</div></div></div><div class="a" style="left:0;right:0;top:6.4em;text-align:center"><div style="display:inline-block;border:1px solid #d9dceb;background:#fff;border-radius:3em;padding:.5em 1.3em;font-size:1.05em;color:#4a56c8;margin-bottom:1.3em">New · Funnels 2.0</div><div class="d" style="font-size:4.3em;color:#0f1222">See what your users<br>actually do.</div><div style="font-size:1.3em;color:#5b607a;margin:1em 0 1.4em">Product analytics your whole team can read in minutes.</div><div style="display:flex;gap:1em;justify-content:center"><div class="btnw solid">Start free</div><div class="btnw">Book a demo</div></div></div><div class="dash"><div style="display:flex;justify-content:space-between;align-items:flex-start;font-size:1.1em;color:#5b607a"><div>Weekly active users<div class="d" style="font-size:2.6em;color:#0f1222;margin-top:.3em">12,480</div></div><span style="background:#e4f6ea;color:#1c7a41;border-radius:2em;padding:.3em .9em;font-size:.95em">▲ 8.2%</span></div><div class="bars"><i style="height:38%"></i><i style="height:52%"></i><i style="height:44%"></i><i style="height:63%"></i><i style="height:58%"></i><i style="height:72%"></i><i style="height:66%"></i><i style="height:81%"></i><i style="height:74%"></i><i style="height:90%"></i><i style="height:84%"></i><i style="height:96%"></i></div></div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>SaaS Landing Page</h3><small>Web development</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="web" data-id="11"><span class="thumb ui"><div class="mock m12"><div class="bar"><i></i><i></i><i></i><u>nookhome.co</u></div><div class="pg"><div class="a" style="left:0;right:0;top:0;padding:1.8em 3.5em;display:flex;align-items:center;justify-content:space-between;z-index:3"><div class="d" style="font-size:1.9em">Nook</div><div style="display:flex;gap:2.4em;font-size:1.15em;opacity:.75"><span>Shop</span><span>Rooms</span><span>Journal</span></div><div class="btnw solid" style="padding:.6em 1.3em">Cart (2)</div></div><div class="a" style="left:3.5em;top:8.4em;z-index:3;width:28em"><div style="font-size:1em;letter-spacing:.22em;color:#80776a;margin-bottom:1.1em">NEW COLLECTION</div><div class="d" style="font-size:5.2em">Furniture<br>for slower<br>mornings.</div><div style="display:flex;gap:1em;margin-top:1.8em"><div class="btnw solid">Shop the edit</div><div class="btnw">Browse rooms</div></div></div><div class="a" style="right:3.5em;top:7.4em;display:flex;gap:.9em;z-index:3"><div class="prod"><div class="pi" style="background:#d9b99b"><i style="left:1.6em;bottom:2.1em;width:5.4em;height:3.2em;border-radius:.9em;background:#7a4a2e"></i><i style="left:2.1em;bottom:4.4em;width:4.4em;height:4.2em;border-radius:1.2em 1.2em .4em .4em;background:#8b5a3a"></i><i style="left:2.3em;bottom:1.4em;width:.6em;height:1em;background:#3a2417"></i><i style="left:5.7em;bottom:1.4em;width:.6em;height:1em;background:#3a2417"></i></div>Aino armchair<small>$420</small></div><div class="prod"><div class="pi" style="background:#c9d3c4"><i style="left:2em;top:2.2em;width:4.6em;height:3.6em;background:#f4e7c8;clip-path:polygon(15% 0,85% 0,100% 100%,0 100%)"></i><i style="left:4.05em;top:5.8em;width:.5em;height:4.2em;background:#3a3a3a"></i><i style="left:2.8em;bottom:1.3em;width:3em;height:.6em;border-radius:1em;background:#3a3a3a"></i></div>Lumi floor lamp<small>$145</small></div><div class="prod"><div class="pi" style="background:#e3cdbd"><i style="left:1.3em;top:5em;width:6em;height:2em;border-radius:50%;background:#2a211a"></i><i style="left:4em;top:6.2em;width:.6em;height:3.8em;background:#2a211a"></i><i style="left:2.9em;bottom:1.3em;width:2.8em;height:.5em;border-radius:1em;background:#2a211a"></i></div>Rondo side table<small>$180</small></div></div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Furniture Store</h3><small>Web development</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="web" data-id="12"><span class="thumb ui"><div class="mock m13"><div class="bar"><i></i><i></i><i></i><u>havenhomes.co</u></div><div class="pg"><div class="a" style="left:0;right:0;top:0;padding:1.8em 3.5em;display:flex;align-items:center;justify-content:space-between;z-index:3"><div class="d" style="font-size:1.9em">Haven</div><div style="display:flex;gap:2.4em;font-size:1.15em;opacity:.75"><span>Buy</span><span>Rent</span><span>Sell</span><span>Agents</span></div><div class="btnw solid" style="padding:.6em 1.3em">Contact</div></div><div class="a" style="left:3.5em;top:8.2em;z-index:3"><div style="font-size:1em;letter-spacing:.22em;color:#5b7186;margin-bottom:1.1em">FIND YOUR PLACE</div><div class="d" style="font-size:4.6em">Homes<br>that feel<br>like yours.</div><div style="display:flex;align-items:center;gap:1em;margin-top:2em;background:#fff;border-radius:3em;padding:.7em .7em .7em 1.8em;width:28em;box-shadow:0 1em 2em #12263a1a;font-size:1.1em;color:#5b7186"><span style="flex:1">Gulshan, Dhaka</span><span style="flex:1;border-left:1px solid #dde3ea;padding-left:1em">Any type</span><span class="btnw solid" style="padding:.7em 1.4em">Search</span></div></div><div class="panel13"><i style="left:0;right:0;bottom:0;height:6em;background:#c9d6c8"></i><i style="left:4.4em;top:6.6em;width:20em;height:8em;background:#12263a;clip-path:polygon(50% 0,100% 100%,0 100%)"></i><i style="left:6em;top:14em;width:16.8em;height:8.6em;background:#f6f1e7"></i><i style="left:8em;top:16em;width:3.2em;height:3.2em;background:#7fb0d4"></i><i style="left:12.8em;top:16em;width:3.2em;height:3.2em;background:#7fb0d4"></i><i style="left:18em;top:16em;width:3em;height:3.2em;background:#7fb0d4"></i><i style="left:12.6em;top:19.4em;width:3.6em;height:3.2em;background:#12263a;border-radius:.4em .4em 0 0"></i><i style="left:2em;top:12em;width:3.4em;height:3.4em;border-radius:50%;background:#e7f0f6"></i><div class="a" style="left:1.4em;bottom:1.4em;right:1.4em;background:#fff;border-radius:1em;padding:1em 1.3em;box-shadow:0 1em 2em #12263a22;display:flex;justify-content:space-between;align-items:center;font-size:1.05em"><div><div style="font-weight:600;font-size:1.15em">Skyline Villa</div><div style="color:#5b7186;margin-top:.2em">4 bd · 3 ba · 2,400 sq ft</div></div><div class="d" style="font-size:1.9em">$640k</div></div></div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Real Estate Website</h3><small>Web development</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="web" data-id="13"><span class="thumb ui"><div class="mock m14"><div class="bar"><i></i><i></i><i></i><u>learnly.academy</u></div><div class="pg"><div class="a" style="left:0;right:0;top:0;padding:1.8em 3.5em;display:flex;align-items:center;justify-content:space-between"><div class="d" style="font-size:1.9em;color:#3b2bd6">Learnly</div><div style="display:flex;gap:2.4em;font-size:1.15em;color:#5a557f"><span>Courses</span><span>Mentors</span><span>Pricing</span></div><div style="display:flex;align-items:center;gap:1.6em;font-size:1.15em"><span style="color:#5a557f">Sign in</span><div class="btnw solid" style="padding:.6em 1.3em">Join free</div></div></div><div class="a" style="left:3.5em;top:8.2em;z-index:3"><div style="display:inline-block;background:#ffe08a;color:#5a4300;border-radius:3em;padding:.5em 1.3em;font-size:1.05em;margin-bottom:1.3em">Live cohorts · new every month</div><div class="d" style="font-size:4.6em;color:#1b1840">Learn skills<br>that pay off.</div><div style="font-size:1.3em;color:#5a557f;margin:1em 0 1.5em;max-width:18em">Short, practical courses taught by working professionals.</div><div style="display:flex;gap:1em"><div class="btnw solid">Browse courses</div><div class="btnw">Watch preview</div></div></div><div class="crs" style="right:4em;top:6.2em;transform:rotate(-3deg)"><small>DESIGN</small><div class="d" style="font-size:1.8em;letter-spacing:-.04em;line-height:1.05">UI Design Basics</div><div class="tr14"><i style="width:62%"></i></div><div style="font-size:1em;color:#7b76a8;margin-top:.6em">62% complete</div></div><div class="crs" style="right:8.5em;top:15.6em;transform:rotate(2deg)"><small>CODE</small><div class="d" style="font-size:1.8em;letter-spacing:-.04em;line-height:1.05">Python for Beginners</div><div class="tr14"><i style="width:35%"></i></div><div style="font-size:1em;color:#7b76a8;margin-top:.6em">35% complete</div></div><div class="crs" style="right:4.5em;top:26.4em;transform:rotate(-2deg)"><small>BUSINESS</small><div class="d" style="font-size:1.8em;letter-spacing:-.04em;line-height:1.05">Marketing 101</div><div class="tr14"><i style="width:80%"></i></div><div style="font-size:1em;color:#7b76a8;margin-top:.6em">80% complete</div></div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Online Course Platform</h3><small>Web development</small></span><span class="arrow">↗</span></span></button>
+    <button class="project" data-cat="web" data-id="14"><span class="thumb ui"><div class="mock m15"><div class="bar"><i></i><i></i><i></i><u>lumen.photo</u></div><div class="pg"><div class="a" style="left:0;right:0;top:0;padding:1.8em 3.5em;display:flex;align-items:center;justify-content:space-between;z-index:3"><div class="d" style="font-size:1.9em;letter-spacing:.06em">LUMEN</div><div style="display:flex;gap:2.4em;font-size:1.15em;opacity:.75"><span>Work</span><span>Journal</span><span>About</span></div><div class="btnw" style="padding:.6em 1.3em">Book a shoot</div></div><div class="a" style="left:3.5em;top:11.5em;z-index:3"><div style="font-size:1em;letter-spacing:.22em;color:#9a9aa2;margin-bottom:1.1em">PORTRAIT · TRAVEL · EDITORIAL</div><div class="d" style="font-size:5.4em">Moments,<br>framed.</div><div style="font-size:1.3em;color:#ffffffa8;margin:1em 0 1.6em;max-width:16em">Photography for people and brands who want honest, lasting images.</div><div class="btnw solid" style="color:#0c0c0d">View portfolio →</div></div><div class="ph" style="left:31.5em;top:6.4em;width:9.4em;height:14em;background:linear-gradient(180deg,#f6b26b 0,#d9707a 42%,#2b1f3a 42%)"><i style="left:2.6em;top:4.2em;width:4.2em;height:4.2em;border-radius:50%;background:#ffe3a8"></i></div><div class="ph" style="left:31.5em;top:21em;width:9.4em;height:12.6em;background:radial-gradient(circle at 50% 36%,#d8d8d8 0 17%,#4a4a4a 18% 38%,#151515 39%)"></div><div class="ph" style="left:41.7em;top:10.2em;width:9.4em;height:10em;background:linear-gradient(180deg,#bfe6ee 0,#6fb5c4 48%,#0e3a4a 48%)"></div><div class="ph" style="left:41.7em;top:21.6em;width:9.4em;height:12em;background:radial-gradient(circle at 30% 70%,#ffb27a,#8a3b2a 55%,#1c0f0d)"></div><div class="ph" style="left:51.9em;top:6.4em;width:9.4em;height:11.6em;background:linear-gradient(160deg,#e8e2d4,#a79b86)"><i style="left:2.4em;top:3em;width:4.6em;height:6.4em;border-radius:50% 50% 1em 1em;background:#3a3329"></i></div><div class="ph" style="left:51.9em;top:18.8em;width:9.4em;height:14.8em;background:linear-gradient(180deg,#1b2a4a,#5a4a8a 60%,#e6a8c0)"></div></div></div><b class="view">View details</b></span><span class="project-meta"><span><h3>Photography Portfolio</h3><small>Web development</small></span><span class="arrow">↗</span></span></button>
+  </div>
+</div></section>
+
+<dialog id="dlg" aria-labelledby="dTitle">
+  <button class="icon-btn d-close" id="dClose" aria-label="Close project details">✕</button>
+  <div class="d-art" id="dArt"></div>
+  <div class="d-body">
+    <h3 id="dTitle"></h3><div class="sub" id="dSub"></div><p id="dText"></p>
+    <div class="tags" id="dTags" style="margin-top:18px"></div>
+    <div class="d-foot"><a class="btn primary" href="#contact" id="dCta">Start something similar <span class="arr">↗</span></a></div>
+  </div>
+</dialog>
+
+<section id="about"><div class="wrap about-grid">
+  <div class="studio-viz reveal" id="studioViz" aria-hidden="true"><div class="sv-grid"></div><div class="sv-grid hot"></div><div class="sv-glow"></div><svg class="sv-lines" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="50" y1="50" x2="22" y2="22"/><line x1="50" y1="50" x2="78" y2="22"/><line x1="50" y1="50" x2="22" y2="78"/><line x1="50" y1="50" x2="78" y2="78"/></svg><div class="sv-core"><svg class="mark" viewBox="0 0 120 120"><rect width="120" height="120" rx="30" class="mk-tile"/><path class="sv-ring" d="M 28.9 91.1 A 44 44 0 1 1 91.1 91.1" fill="none" stroke="#FF5A1F" stroke-width="7" stroke-linecap="round"/><path d="M40 44H80M60 44V86" fill="none" class="mk-t" stroke-width="9" stroke-linecap="round"/></svg></div><span class="sv-chip c1" data-i="0">Web</span><span class="sv-chip c2" data-i="1">Brand</span><span class="sv-chip c3" data-i="2">UI / UX</span><span class="sv-chip c4" data-i="3">Graphic</span><div class="sv-cap">Design × Technology</div></div>
+  <div class="about reveal">
+    <div class="kicker">About</div>
+    <h2>A creative studio built for the digital world.</h2>
+    <p>TACHREF STUDIO is an independent studio focused on modern websites and thoughtful visual identities. We bring design and technology together so your business looks credible, loads fast and is easy to say yes to.</p>
+    <a class="btn" style="margin-top:24px" href="#contact">Let's talk <span class="arr">↗</span></a>
+    <div class="values">
+      <div class="value"><b>Modern and clean</b>Design with a reason behind every choice.</div>
+      <div class="value"><b>Reliable delivery</b>Clear scope, honest timelines.</div>
+      <div class="value"><b>Responsive by default</b>Built for phones, tablets and desktops.</div>
+      <div class="value"><b>Clear communication</b>You always know what happens next.</div>
+    </div>
+  </div>
+</div></section>
+
+<section id="process"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">Process</div><h2>How it works</h2></div><p>Four steps, with your feedback built into each one.</p></div>
+  <div class="steps reveal">
+    <div class="step"><span class="num">Step 1</span><h3>Discuss</h3><p>Tell us your goals, audience and timeline. We ask the questions that shape the brief.</p></div>
+    <div class="step"><span class="num">Step 2</span><h3>Design</h3><p>We present a creative direction and refine it with you until it feels right.</p></div>
+    <div class="step"><span class="num">Step 3</span><h3>Build</h3><p>We turn the approved design into a fast, tested, responsive result.</p></div>
+    <div class="step"><span class="num">Step 4</span><h3>Launch</h3><p>We go live together, then hand over everything you need to grow.</p></div>
+  </div>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">Pricing</div><h2>Simple packages</h2></div><p>Every project is quoted to its scope. Pick a starting point and we'll shape it with you.</p></div>
+  <div class="plans reveal"><article class="plan"><div class="tier"><span>01</span></div><h3>Landing page</h3><p class="for">A focused one-page site to launch a business, product or campaign.</p><ul class="plan-list"><li>Custom responsive design</li><li>Your brand colors and type</li><li>Contact form and clear call to action</li><li>Basic SEO and fast loading</li></ul><div class="quote">Quote after a short call</div><a class="btn" href="#contact" data-service="Web development">Get a quote <span class="arr">→</span></a></article><article class="plan feat"><div class="tier"><span>02</span><span class="badge">Recommended</span></div><h3>Business website</h3><p class="for">A complete multi-page website that explains what you do and brings in inquiries.</p><ul class="plan-list"><li>Custom design for every page</li><li>Clear structure and written layout</li><li>Performance and SEO setup</li><li>Easy for you to update</li><li>Launch support and handover</li></ul><div class="quote">Quote after a short call</div><a class="btn" href="#contact" data-service="Web development">Get a quote <span class="arr">→</span></a></article><article class="plan"><div class="tier"><span>03</span></div><h3>Brand + website</h3><p class="for">A new identity and the website to match, designed together from day one.</p><ul class="plan-list"><li>Logo, colors and type system</li><li>Brand guidelines</li><li>Website built on the identity</li><li>Social media templates</li></ul><div class="quote">Quote after a short call</div><a class="btn" href="#contact" data-service="Brand identity">Get a quote <span class="arr">→</span></a></article></div>
+</div></section>
+
+<section id="faq"><div class="wrap faq-grid">
+  <div class="reveal"><div class="kicker">FAQ</div><h2>Good to know</h2></div>
+  <div class="reveal">
+    <details open><summary>What kinds of projects do you take on?</summary><p>Business websites, landing pages, brand identities, marketing visuals and product interfaces. If you're unsure which fits, describe your goal and we'll recommend a starting point.</p></details>
+    <details><summary>How long does a project take?</summary><p>It depends on scope. A landing page usually takes less time than a full website or brand identity. We give you a timeline after the first conversation.</p></details>
+    <details><summary>Will my website work on mobile?</summary><p>Yes. Every site we build is responsive and tested on phones, tablets and desktops.</p></details>
+    <details><summary>Can I hire you for just design or just development?</summary><p>Yes. You can book a single service or combine them for a more consistent result.</p></details>
+    <details><summary>How do we get started?</summary><p>Fill in the form below or email us. We reply with questions and next steps.</p></details>
+  </div>
+</div></section>
+
+<div class="wrap contact" id="contact"><div class="contact-box">
+  <div class="contact-side">
+    <div class="kicker">Get in touch</div>
+    <h2>Let's start<br>a project.</h2>
+    <p>Have an idea in mind? Tell us a little about it and we'll get back to you.</p>
+    <div class="contact-links">
+      <a href="mailto:tachrefstudio@gmail.com">tachrefstudio@gmail.com <span>↗</span></a>
+      <a href="https://www.instagram.com/tachref_studio/" target="_blank" rel="noopener">Instagram <span>↗</span></a>
+      <a href="https://discord.gg/WhNWGjaA5" target="_blank" rel="noopener">Discord <span>↗</span></a>
+      <div class="na">WhatsApp <span>Not available</span></div>
+      <div class="na">LinkedIn <span>Not available</span></div>
+    </div>
+  </div>
+  <form id="form" novalidate>
+    <div class="row">
+      <label>Your name<input name="name" required autocomplete="name" placeholder="Jane Doe"></label>
+      <label>Email<input name="email" type="email" required autocomplete="email" placeholder="you@company.com"></label>
+    </div>
+    <div class="row">
+      <label>Service
+        <select name="service">
+          <option>Web development</option>
+          <option>Graphic design</option>
+          <option>Brand identity</option>
+          <option>UI / UX design</option>
+          <option>Not sure yet</option>
+        </select>
+      </label>
+      <label>Budget range
+        <select name="budget">
+          <option>$1,000 – $3,000</option>
+          <option>$3,000 – $6,000</option>
+          <option>$6,000 – $12,000</option>
+          <option>$12,000+</option>
+          <option>Let's discuss</option>
+        </select>
+      </label>
+    </div>
+    <label>Project details
+      <textarea name="message" required placeholder="Tell us about your goals, timeline, and what you're looking to build..."></textarea>
+    </label>
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:4px">
+      <button type="submit" class="btn primary">Send inquiry <span class="arr">→</span></button>
+      <span class="form-note">Typical response within 24 hours.</span>
+    </div>
+    <div id="formMsg" role="status" aria-live="polite"></div>
+  </form>
+</div></div>
+</main>
+
+<footer><div class="wrap foot">
+  <div><strong>TACHREF STUDIO®</strong> — © <span id="yr"></span> All rights reserved.</div>
+  <div class="footlinks">
+    <a href="#services">Services</a>
+    <a href="#portfolio">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <button class="top" id="toTop" aria-label="Back to top">Back to top ↑</button>
+</div></footer>
+
+<div class="cur" id="cur" aria-hidden="true"></div>
+
+<script>
+(() => {
+  // 1. Year & Back to Top
+  const yrEl = document.getElementById('yr');
+  if (yrEl) yrEl.textContent = new Date().getFullYear();
+  document.getElementById('toTop')?.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // 2. Theme Toggle (Light / Dark)
+  const html = document.documentElement;
+  const themeBtn = document.getElementById('theme');
+  const metaTheme = document.querySelector('meta[name="theme-color"]');
+  const savedTheme = localStorage.getItem('tachref-theme');
+  if (savedTheme === 'light' || savedTheme === 'dark') {
+    html.setAttribute('data-theme', savedTheme);
+  }
+  const syncThemeUI = () => {
+    const isLight = html.getAttribute('data-theme') === 'light';
+    themeBtn.setAttribute('aria-label', isLight ? 'Switch to dark theme' : 'Switch to light theme');
+    if (metaTheme) metaTheme.setAttribute('content', isLight ? '#f4f4f2' : '#070707');
+  };
+  syncThemeUI();
+  themeBtn.addEventListener('click', () => {
+    const next = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    html.setAttribute('data-theme', next);
+    localStorage.setItem('tachref-theme', next);
+    syncThemeUI();
+  });
+
+  // 3. Mobile Navigation Drawer
+  const menuBtn = document.getElementById('menu');
+  const navLinks = document.getElementById('navlinks');
+  menuBtn.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', String(isOpen));
+    menuBtn.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+    menuBtn.textContent = isOpen ? '✕' : '☰';
+  });
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+      menuBtn.setAttribute('aria-label', 'Open menu');
+      menuBtn.textContent = '☰';
+    });
+  });
+
+  // 4. Scroll Progress Bar & Active Nav Link Highlighting
+  const progress = document.getElementById('progress');
+  const sections = ['home', 'services', 'portfolio', 'about', 'process', 'pricing', 'faq', 'contact']
+    .map(id => document.getElementById(id))
+    .filter(Boolean);
+  const navAnchors = Array.from(navLinks.querySelectorAll('a'));
+
+  const onScroll = () => {
+    const scrollTop = window.scrollY;
+    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+    const ratio = maxScroll > 0 ? Math.min(1, Math.max(0, scrollTop / maxScroll)) : 0;
+    progress.style.transform = `scaleX(${ratio})`;
+
+    let currentId = sections[0]?.id || 'home';
+    const offset = 160;
+    for (const sec of sections) {
+      if (scrollTop + offset >= sec.offsetTop) {
+        currentId = sec.id;
+      }
+    }
+    navAnchors.forEach(a => {
+      a.classList.toggle('active', a.getAttribute('href') === `#${currentId}`);
+    });
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // 5. Reveal on Scroll
+  const reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => io.observe(el));
+  } else {
+    reveals.forEach(el => el.classList.add('in'));
+  }
+
+  // 6. Hero typography: smooth word roll + soft light on the outlined line
+  const heroTitle = document.getElementById('heroWaveTitle');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (heroTitle) {
+    heroTitle.querySelectorAll('.line').forEach(line => {
+      setTimeout(() => line.classList.add('ready'), 1300);
+    });
+  }
+  if (heroTitle && !reduceMotion) {
+    // word roll
+    const track = document.getElementById('swapTrack');
+    if (track) {
+      const total = track.children.length - 1; // last item repeats the first
+      let idx = 0;
+      track.addEventListener('transitionend', () => {
+        if (idx >= total) {
+          track.style.transition = 'none';
+          track.style.transform = 'translateY(0)';
+          idx = 0;
+          void track.offsetWidth;
+          track.style.transition = '';
+        }
+      });
+      setInterval(() => {
+        if (document.hidden) return;
+        idx += 1;
+        track.style.transform = `translateY(${(-idx * 1.12).toFixed(2)}em)`;
+      }, 2800);
+    }
+
+    // letters only react when touched: a ripple of lift, lean and colour around the pointer
+    const lineEls = [...heroTitle.querySelectorAll('.line')];
+    const items = [];
+    [...heroTitle.querySelectorAll('.line>span, .line>span .lite')].forEach(host => {
+      const lineIdx = lineEls.indexOf(host.closest('.line'));
+      [...host.childNodes].forEach(node => {
+        if (node.nodeType !== 3) return;
+        const frag = document.createDocumentFragment();
+        node.textContent.split(/(\s+)/).forEach(part => {
+          if (!part) return;
+          if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(' ')); return; }
+          const wd = document.createElement('span');
+          wd.className = 'k-wd';
+          for (const ch of part) {
+            const c = document.createElement('span');
+            c.className = 'k-ch';
+            c.textContent = ch;
+            wd.appendChild(c);
+            items.push({ el: c, line: lineIdx, y: 0, s: 1, r: 0, f: 0, acc: false, block: false });
+          }
+          frag.appendChild(wd);
+        });
+        host.replaceChild(frag, node);
+      });
+    });
+    const lastOfThird = items.filter(w => w.line === 2).pop();
+    if (lastOfThird) { lastOfThird.acc = true; lastOfThird.el.style.color = 'var(--text)'; }
+    const swapEl = heroTitle.querySelector('.swap');
+    if (swapEl) items.push({ el: swapEl, line: 1, y: 0, s: 1, r: 0, f: 0, acc: true, block: true });
+
+    let px = -9999, py = -9999, running = false;
+    const tick = (t) => {
+      let moving = false;
+      const active = px > -9000;
+      for (const w of items) {
+        let ty = 0, ts = 1, tr = 0;
+        w.f = 0;
+        if (active) {
+          const r = w.el.getBoundingClientRect();
+          const dx = px - (r.left + r.width / 2);
+          const dy = py - (r.top + r.height / 2);
+          const d = Math.hypot(dx, dy);
+          const f = Math.max(0, 1 - d / 220);
+          const ring = Math.sin(d / 42 - t / 150);
+          w.f = f;
+          ty = -f * (0.18 + 0.1 * ring);
+          ts = 1 + f * 0.16;
+          tr = w.block ? 0 : Math.max(-1, Math.min(1, dx / 160)) * f * 12;
+        }
+        w.y += (ty - w.y) * 0.2;
+        w.s += (ts - w.s) * 0.2;
+        w.r += (tr - w.r) * 0.2;
+        const settled = Math.abs(w.y) < 0.0008 && Math.abs(w.s - 1) < 0.001 && Math.abs(w.r) < 0.05;
+        if (!settled) moving = true;
+        w.el.style.transform = (settled && !active) ? '' : `translate3d(0,${w.y.toFixed(4)}em,0) rotate(${w.r.toFixed(2)}deg) scale(${w.s.toFixed(3)})`;
+        if (!w.acc && w.line === 2) {
+          if (w.f > 0.02) w.el.style.color = `color-mix(in srgb,var(--text) ${Math.round(w.f * 100)}%,var(--dim))`;
+          else if (w.el.style.color) w.el.style.color = '';
+        }
+      }
+      if (moving || active) requestAnimationFrame(tick); else running = false;
+    };
+    const wake = () => { if (!running) { running = true; requestAnimationFrame(tick); } };
+    heroTitle.addEventListener('pointermove', (e) => { px = e.clientX; py = e.clientY; wake(); });
+    heroTitle.addEventListener('pointerleave', () => { px = -9999; py = -9999; wake(); });
+    heroTitle.addEventListener('pointerup', (e) => { if (e.pointerType !== 'mouse') { px = -9999; py = -9999; wake(); } });
+  }
+
+  // 7b. About visual: spotlight + parallax, chips light up their line
+  const viz = document.getElementById('studioViz');
+  if (viz) {
+    const vLines = viz.querySelectorAll('.sv-lines line');
+    const setLine = (i, on) => vLines[i] && vLines[i].classList.toggle('on', on);
+    viz.querySelectorAll('.sv-chip').forEach(chip => {
+      const i = Number(chip.dataset.i);
+      chip.addEventListener('pointerenter', () => setLine(i, true));
+      chip.addEventListener('pointerleave', () => setLine(i, false));
+    });
+    if (!reduceMotion) {
+      viz.addEventListener('pointermove', (e) => {
+        const r = viz.getBoundingClientRect();
+        const x = e.clientX - r.left, y = e.clientY - r.top;
+        viz.style.setProperty('--mx', x + 'px');
+        viz.style.setProperty('--my', y + 'px');
+        viz.style.setProperty('--nx', (x / r.width - 0.5).toFixed(3));
+        viz.style.setProperty('--ny', (y / r.height - 0.5).toFixed(3));
+      });
+      viz.addEventListener('pointerleave', () => {
+        ['--mx', '--my'].forEach(k => viz.style.setProperty(k, '50%'));
+        ['--nx', '--ny'].forEach(k => viz.style.setProperty(k, '0'));
+      });
+    }
+  }
+
+  // 8. Duplicate Marquee Track for Seamless Loop
+  const track = document.getElementById('track');
+  if (track) {
+    track.innerHTML += track.innerHTML + track.innerHTML;
+  }
+
+  // 9. Services Accordion
+  const serviceItems = document.querySelectorAll('#serviceList .service');
+  serviceItems.forEach(item => {
+    const btn = item.querySelector('button');
+    btn.addEventListener('click', () => {
+      const isOpen = item.getAttribute('data-open') === 'true';
+      serviceItems.forEach(other => {
+        other.setAttribute('data-open', 'false');
+        other.querySelector('button').setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        item.setAttribute('data-open', 'true');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  // 10. Portfolio Filter, Card Spotlight & Project Modal
+  const projectData = [
+    {
+      title: 'Travel Landing Page',
+      sub: 'Web development · 2026',
+      art: 'Explore<br>More.',
+      bg: 'linear-gradient(135deg,#101820,#3c4b56 50%,#0b0d10)',
+      desc: 'An editorial travel discovery platform crafted with fluid scroll choreography, interactive destination previews, and sub-second page loads.',
+      tags: ['UI Direction', 'Responsive Web', 'Performance', 'Motion']
+    },
+    {
+      title: 'TM Agency Branding',
+      sub: 'Brand identity & Graphic design · 2026',
+      art: 'TM.',
+      bg: '#080808',
+      desc: 'A bold monochrome visual identity system for an independent talent agency—spanning custom logotype, typographic grid, and print collateral.',
+      tags: ['Logo System', 'Typography', 'Brand Guidelines', 'Print']
+    },
+    {
+      title: 'Music Poster Design',
+      sub: 'Graphic design · 2025',
+      art: '音',
+      bg: 'radial-gradient(circle at 70% 35%,#444,#111 38%,#050505)',
+      desc: 'Limited-edition vinyl sleeve and live tour poster series celebrating experimental electronic soundscapes with stark Swiss-inspired layout.',
+      tags: ['Poster Series', 'Art Direction', 'Packaging']
+    },
+    {
+      title: 'Car Showcase Website',
+      sub: 'Web development · 2026',
+      art: 'DRIVE.',
+      bg: 'linear-gradient(140deg,#202020,#050505)',
+      desc: 'Interactive showroom experience for a boutique electric vehicle concept featuring real-time spec comparison and seamless test-drive booking.',
+      tags: ['Interactive Web', 'Frontend Architecture', 'Conversion UX']
+    },
+    {
+      title: 'Product UI Concept',
+      sub: 'UI / UX design · 2026',
+      art: 'FORM / 01',
+      bg: 'linear-gradient(135deg,#131313,#2c2c2c)',
+      desc: 'A modular workspace and design-token management interface built for speed, keyboard-first navigation, and effortless dark/light parity.',
+      tags: ['Design System', 'Prototyping', 'Web App UI']
+    },
+    {
+      title: 'Portfolio Website',
+      sub: 'Web development · 2026',
+      art: '',
+      bg: '',
+      desc: 'A personal portfolio site for a product designer: big editorial type, case-study cards and a clear hire-me call to action.',
+      tags: ['Portfolio', 'Responsive Web', 'Case Studies']
+    },
+    {
+      title: 'Social Campaign',
+      sub: 'Creative design · 2025',
+      art: 'MAKE<br>IT MATTER.',
+      bg: 'linear-gradient(135deg,#050505,#292929)',
+      desc: 'High-contrast digital campaign toolkit designed to cut through crowded feeds with kinetic typography and modular story templates.',
+      tags: ['Social Kit', 'Campaign Visuals', 'Copy & Layout']
+    },
+    {
+      title: 'Apex Rush',
+      sub: 'Web development · 2026',
+      art: '',
+      bg: '',
+      desc: 'A browser racing game built by TACHREF STUDIO in plain HTML, playable on both PC and phone.',
+      tags: ['Game Development', 'HTML', 'PC & Mobile']
+    },
+    {
+      title: 'Restaurant Website',
+      sub: 'Web development · 2026',
+      art: '',
+      bg: '',
+      desc: 'A warm, appetite-first website for a wood-fired restaurant with table reservations, menu highlights and opening hours.',
+      tags: ['Reservations', 'Menu Design', 'Local SEO']
+    },
+    {
+      title: 'Fitness Studio Website',
+      sub: 'Web development · 2026',
+      art: '',
+      bg: '',
+      desc: 'A high-energy membership site for a fitness studio with class booking, clear plans and a weekly goal tracker.',
+      tags: ['Memberships', 'Class Booking', 'Responsive Web']
+    },
+    {
+      title: 'SaaS Landing Page',
+      sub: 'Web development · 2026',
+      art: '',
+      bg: '',
+      desc: 'A clear product landing page for an analytics tool: a sharp headline, simple pricing path and a live dashboard preview.',
+      tags: ['Landing Page', 'Product Marketing', 'Conversion UX']
+    },
+    {
+      title: 'Furniture Store',
+      sub: 'Web development · 2026',
+      art: '',
+      bg: '',
+      desc: 'A calm online store for a furniture brand with editorial product cards, quick add-to-cart and a clean checkout path.',
+      tags: ['E-commerce', 'Product Pages', 'Checkout UX']
+    },
+    {
+      title: 'Real Estate Website',
+      sub: 'Web development · 2026',
+      art: '',
+      bg: '',
+      desc: 'A clean property site with a prominent search bar, featured listings and a clear path to book a viewing.',
+      tags: ['Property Search', 'Listings', 'Lead Capture']
+    },
+    {
+      title: 'Online Course Platform',
+      sub: 'Web development · 2026',
+      art: '',
+      bg: '',
+      desc: 'A friendly learning site with course cards, progress tracking and a simple join-free signup.',
+      tags: ['Course Catalog', 'Progress Tracking', 'Onboarding UX']
+    },
+    {
+      title: 'Photography Portfolio',
+      sub: 'Web development · 2026',
+      art: '',
+      bg: '',
+      desc: 'A dark, image-first portfolio for a photographer with a masonry gallery and a simple booking call to action.',
+      tags: ['Gallery', 'Portfolio', 'Booking']
+    }
+  ];
+
+  const chips = document.querySelectorAll('.filters .chip');
+  const cards = document.querySelectorAll('#projects .project');
+
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const filter = chip.dataset.f;
+      chips.forEach(c => c.setAttribute('aria-pressed', String(c === chip)));
+      cards.forEach(card => {
+        const match = filter === 'all' || card.dataset.cat === filter;
+        card.hidden = !match;
+      });
+    });
+  });
+
+  const dlg = document.getElementById('dlg');
+  const dClose = document.getElementById('dClose');
+  const dArt = document.getElementById('dArt');
+  const dTitle = document.getElementById('dTitle');
+  const dSub = document.getElementById('dSub');
+  const dText = document.getElementById('dText');
+  const dTags = document.getElementById('dTags');
+  const dCta = document.getElementById('dCta');
+
+  cards.forEach(card => {
+    const thumb = card.querySelector('.thumb');
+    card.addEventListener('pointermove', (e) => {
+      const rect = thumb.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      thumb.style.setProperty('--mx', `${x.toFixed(1)}%`);
+      thumb.style.setProperty('--my', `${y.toFixed(1)}%`);
+    });
+
+    card.addEventListener('click', () => {
+      const item = projectData[Number(card.dataset.id)];
+      if (!item || !dlg) return;
+      const mk = card.querySelector('.mock');
+      dArt.replaceChildren(mk ? mk.cloneNode(true) : '');
+      dArt.style.background = '';
+      dTitle.textContent = item.title;
+      dSub.textContent = item.sub;
+      dText.textContent = item.desc;
+      dTags.innerHTML = item.tags.map(t => `<li style="list-style:none;border:1px solid var(--line2);border-radius:99px;padding:5px 12px;font-size:12.5px;color:var(--muted)">${t}</li>`).join('');
+      if (typeof dlg.showModal === 'function') {
+        dlg.showModal();
+      } else {
+        dlg.setAttribute('open', '');
+      }
+    });
+  });
+
+  const closeDialog = () => {
+    if (!dlg) return;
+    if (typeof dlg.close === 'function') dlg.close();
+    else dlg.removeAttribute('open');
+  };
+  dClose?.addEventListener('click', closeDialog);
+  dCta?.addEventListener('click', closeDialog);
+  dlg?.addEventListener('click', (e) => {
+    if (e.target === dlg) closeDialog();
+  });
+
+  // 10b. Pricing buttons preselect the matching service in the contact form
+  document.querySelectorAll('.plan .btn[data-service]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const sel = document.getElementById('form')?.elements.namedItem('service');
+      if (sel) sel.value = btn.dataset.service;
+    });
+  });
+
+  // 11. Contact Form Validation & Submission Feedback
+  const form = document.getElementById('form');
+  const formMsg = document.getElementById('formMsg');
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const nameInput = form.elements.namedItem('name');
+    const emailInput = form.elements.namedItem('email');
+    const msgInput = form.elements.namedItem('message');
+
+    if (!nameInput.value.trim() || !emailInput.validity.valid || !msgInput.value.trim()) {
+      formMsg.style.color = '#f87171';
+      formMsg.textContent = 'Please fill in your name, a valid email address, and project details.';
+      form.reportValidity?.();
+      return;
+    }
+
+    const firstName = nameInput.value.trim().split(/\s+/)[0];
+    const data = new FormData(form);
+    const body = [
+      `Name: ${data.get('name')}`,
+      `Email: ${data.get('email')}`,
+      `Service: ${data.get('service')}`,
+      `Budget: ${data.get('budget')}`,
+      '',
+      data.get('message')
+    ].join('\n');
+    const subject = `Project inquiry: ${data.get('service')}`;
+    window.location.href = `mailto:tachrefstudio@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    formMsg.style.color = '#4ade80';
+    formMsg.textContent = `Thanks, ${firstName}! Your email app should open with your inquiry ready to send. If it doesn't, write to tachrefstudio@gmail.com.`;
+  });
+
+  // 12. Custom Contextual Blend-Mode Cursor
+  const cur = document.getElementById('cur');
+  const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  if (cur && canHover && !reduceMotion) {
+    html.classList.add('has-cur');
+    let cx = -100, cy = -100, tx = -100, ty = -100;
+
+    window.addEventListener('pointermove', (e) => {
+      tx = e.clientX;
+      ty = e.clientY;
+      cur.classList.add('on');
+
+      const target = e.target;
+      const projectCard = target.closest?.('.project');
+      const interactive = target.closest?.('a, button, summary, [role="button"]');
+
+      if (projectCard) {
+        cur.className = 'cur on label';
+        cur.textContent = 'View';
+      } else if (interactive) {
+        cur.className = 'cur on link';
+        cur.textContent = '';
+      } else {
+        cur.className = 'cur on';
+        cur.textContent = '';
+      }
+    }, { passive: true });
+
+    window.addEventListener('pointerdown', () => cur.classList.add('press'));
+    window.addEventListener('pointerup', () => cur.classList.remove('press'));
+    document.addEventListener('mouseleave', () => cur.classList.remove('on'));
+
+    const renderCursor = () => {
+      cx += (tx - cx) * 0.24;
+      cy += (ty - cy) * 0.24;
+      cur.style.transform = `translate3d(${cx.toFixed(1)}px, ${cy.toFixed(1)}px, 0)`;
+      requestAnimationFrame(renderCursor);
+    };
+    requestAnimationFrame(renderCursor);
+  }
+})();
+</script>
+</body>
+</html>
